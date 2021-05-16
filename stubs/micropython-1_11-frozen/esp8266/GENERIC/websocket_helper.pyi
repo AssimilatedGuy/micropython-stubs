@@ -1,5 +1,6 @@
+from typing import Any
 
-from typing import Any, Dict, Optional, Sequence, Tuple, Union
-Node = Any
+DEBUG: int
+
 def server_handshake(sock: Any) -> None: ...
 def client_handshake(sock: Any) -> None: ...
