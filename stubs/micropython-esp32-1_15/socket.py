@@ -1,8 +1,10 @@
 """
 Module: 'socket' on micropython-esp32-1.15
 """
-# MCU: {'ver': '1.15', 'port': 'esp32', 'arch': 'xtensawin', 'sysname': 'esp32', 'release': '1.15.0', 'name': 'micropython', 'mpy': 10757, 'version': '1.15.0', 'machine': 'ESP32 module with ESP32', 'build': '', 'nodename': 'esp32', 'platform': 'esp32', 'family': 'micropython'}
-# Stubber: 1.3.9
+# MCU: {'ver': '1.15', 'port': 'esp32', 'arch': 'xtensawin', 'sysname': 'esp32', 'release': '1.15.0', 'name': 'micropython', 'mpy': 10757, 'version': '1.15.0', 'machine': 'ESP32 module (spiram) with ESP32', 'build': '', 'nodename': 'esp32', 'platform': 'esp32', 'family': 'micropython'}
+# Stubber: 1.3.11
+from typing import Any
+
 AF_INET = 2
 AF_INET6 = 10
 IPPROTO_IP = 0
@@ -14,66 +16,66 @@ SOCK_RAW = 3
 SOCK_STREAM = 1
 SOL_SOCKET = 4095
 SO_REUSEADDR = 4
-def getaddrinfo():
+def getaddrinfo() -> Any:
     pass
 
 
 class socket:
     ''
-    def accept():
+    def accept(self) -> Any:
         pass
 
-    def bind():
+    def bind(self) -> Any:
         pass
 
-    def close():
+    def close(self) -> Any:
         pass
 
-    def connect():
+    def connect(self) -> Any:
         pass
 
-    def fileno():
+    def fileno(self) -> Any:
         pass
 
-    def listen():
+    def listen(self) -> Any:
         pass
 
-    def makefile():
+    def makefile(self) -> Any:
         pass
 
-    def read():
+    def read(self) -> Any:
         pass
 
-    def readinto():
+    def readinto(self) -> Any:
         pass
 
-    def readline():
+    def readline(self) -> Any:
         pass
 
-    def recv():
+    def recv(self) -> Any:
         pass
 
-    def recvfrom():
+    def recvfrom(self) -> Any:
         pass
 
-    def send():
+    def send(self) -> Any:
         pass
 
-    def sendall():
+    def sendall(self) -> Any:
         pass
 
-    def sendto():
+    def sendto(self) -> Any:
         pass
 
-    def setblocking():
+    def setblocking(self) -> Any:
         pass
 
-    def setsockopt():
+    def setsockopt(self) -> Any:
         pass
 
-    def settimeout():
+    def settimeout(self) -> Any:
         pass
 
-    def write():
+    def write(self) -> Any:
         pass
 

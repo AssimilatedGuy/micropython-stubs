@@ -1,84 +1,86 @@
 """
 Module: 'uasyncio.__init__' on micropython-esp32-1.15
 """
-# MCU: {'ver': '1.15', 'port': 'esp32', 'arch': 'xtensawin', 'sysname': 'esp32', 'release': '1.15.0', 'name': 'micropython', 'mpy': 10757, 'version': '1.15.0', 'machine': 'ESP32 module with ESP32', 'build': '', 'nodename': 'esp32', 'platform': 'esp32', 'family': 'micropython'}
-# Stubber: 1.3.9
+# MCU: {'ver': '1.15', 'port': 'esp32', 'arch': 'xtensawin', 'sysname': 'esp32', 'release': '1.15.0', 'name': 'micropython', 'mpy': 10757, 'version': '1.15.0', 'machine': 'ESP32 module (spiram) with ESP32', 'build': '', 'nodename': 'esp32', 'platform': 'esp32', 'family': 'micropython'}
+# Stubber: 1.3.11
+from typing import Any
+
 
 class CancelledError:
     ''
 
 class Event:
     ''
-    def clear():
+    def clear(self) -> Any:
         pass
 
-    def is_set():
+    def is_set(self) -> Any:
         pass
 
-    def set():
+    def set(self) -> Any:
         pass
 
-    wait = None
+    wait = Any
 
 class IOQueue:
     ''
-    def _dequeue():
+    def _dequeue(self) -> Any:
         pass
 
-    def _enqueue():
+    def _enqueue(self) -> Any:
         pass
 
-    def queue_read():
+    def queue_read(self) -> Any:
         pass
 
-    def queue_write():
+    def queue_write(self) -> Any:
         pass
 
-    def remove():
+    def remove(self) -> Any:
         pass
 
-    def wait_io_event():
+    def wait_io_event(self) -> Any:
         pass
 
 
 class Lock:
     ''
-    acquire = None
-    def locked():
+    acquire = Any
+    def locked(self) -> Any:
         pass
 
-    def release():
+    def release(self) -> Any:
         pass
 
 
 class Loop:
     ''
-    _exc_handler = None
-    def call_exception_handler():
+    _exc_handler = Any
+    def call_exception_handler(self) -> Any:
         pass
 
-    def close():
+    def close(self) -> Any:
         pass
 
-    def create_task():
+    def create_task(self) -> Any:
         pass
 
-    def default_exception_handler():
+    def default_exception_handler(self) -> Any:
         pass
 
-    def get_exception_handler():
+    def get_exception_handler(self) -> Any:
         pass
 
-    def run_forever():
+    def run_forever(self) -> Any:
         pass
 
-    def run_until_complete():
+    def run_until_complete(self) -> Any:
         pass
 
-    def set_exception_handler():
+    def set_exception_handler(self) -> Any:
         pass
 
-    def stop():
+    def stop(self) -> Any:
         pass
 
 
@@ -87,41 +89,41 @@ class SingletonGenerator:
 
 class StreamReader:
     ''
-    aclose = None
-    awrite = None
-    awritestr = None
-    def close():
+    aclose = Any
+    awrite = Any
+    awritestr = Any
+    def close(self) -> Any:
         pass
 
-    drain = None
-    def get_extra_info():
+    drain = Any
+    def get_extra_info(self) -> Any:
         pass
 
-    read = None
-    readexactly = None
-    readline = None
-    wait_closed = None
-    def write():
+    read = Any
+    readexactly = Any
+    readline = Any
+    wait_closed = Any
+    def write(self) -> Any:
         pass
 
 
 class StreamWriter:
     ''
-    aclose = None
-    awrite = None
-    awritestr = None
-    def close():
+    aclose = Any
+    awrite = Any
+    awritestr = Any
+    def close(self) -> Any:
         pass
 
-    drain = None
-    def get_extra_info():
+    drain = Any
+    def get_extra_info(self) -> Any:
         pass
 
-    read = None
-    readexactly = None
-    readline = None
-    wait_closed = None
-    def write():
+    read = Any
+    readexactly = Any
+    readline = Any
+    wait_closed = Any
+    def write(self) -> Any:
         pass
 
 
@@ -130,74 +132,74 @@ class Task:
 
 class TaskQueue:
     ''
-    def peek():
+    def peek(self) -> Any:
         pass
 
-    def pop_head():
+    def pop_head(self) -> Any:
         pass
 
-    def push_head():
+    def push_head(self) -> Any:
         pass
 
-    def push_sorted():
+    def push_sorted(self) -> Any:
         pass
 
-    def remove():
+    def remove(self) -> Any:
         pass
 
 
 class ThreadSafeFlag:
     ''
-    def ioctl():
+    def ioctl(self) -> Any:
         pass
 
-    def set():
+    def set(self) -> Any:
         pass
 
-    wait = None
+    wait = Any
 
 class TimeoutError:
     ''
-_attrs = None
-def create_task():
+_attrs = Any
+def create_task() -> Any:
     pass
 
-def current_task():
+def current_task() -> Any:
     pass
 
-gather = None
-def get_event_loop():
+gather = Any
+def get_event_loop() -> Any:
     pass
 
-def new_event_loop():
+def new_event_loop() -> Any:
     pass
 
-open_connection = None
-def run():
+open_connection = Any
+def run() -> Any:
     pass
 
-def run_until_complete():
+def run_until_complete() -> Any:
     pass
 
-select = None
-def sleep():
+select = Any
+def sleep() -> Any:
     pass
 
-def sleep_ms():
+def sleep_ms() -> Any:
     pass
 
-start_server = None
-sys = None
-def ticks():
+start_server = Any
+sys = Any
+def ticks() -> Any:
     pass
 
-def ticks_add():
+def ticks_add() -> Any:
     pass
 
-def ticks_diff():
+def ticks_diff() -> Any:
     pass
 
-wait_for = None
-def wait_for_ms():
+wait_for = Any
+def wait_for_ms() -> Any:
     pass
 

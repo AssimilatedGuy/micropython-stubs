@@ -1,6 +1,10 @@
 from typing import Any
 
-Node = Any
+NTP_DELTA: int
+host: str
 
-def settime() -> None: ...
-def time() -> None: ...
+def settime() -> Any: ...
+socket = Any
+struct = Any
+
+def time() -> Any: ...

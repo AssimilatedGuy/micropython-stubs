@@ -1,124 +1,126 @@
 """
 Module: 'math' on micropython-esp32-1.15
 """
-# MCU: {'ver': '1.15', 'port': 'esp32', 'arch': 'xtensawin', 'sysname': 'esp32', 'release': '1.15.0', 'name': 'micropython', 'mpy': 10757, 'version': '1.15.0', 'machine': 'ESP32 module with ESP32', 'build': '', 'nodename': 'esp32', 'platform': 'esp32', 'family': 'micropython'}
-# Stubber: 1.3.9
-def acos():
+# MCU: {'ver': '1.15', 'port': 'esp32', 'arch': 'xtensawin', 'sysname': 'esp32', 'release': '1.15.0', 'name': 'micropython', 'mpy': 10757, 'version': '1.15.0', 'machine': 'ESP32 module (spiram) with ESP32', 'build': '', 'nodename': 'esp32', 'platform': 'esp32', 'family': 'micropython'}
+# Stubber: 1.3.11
+from typing import Any
+
+def acos() -> Any:
     pass
 
-def acosh():
+def acosh() -> Any:
     pass
 
-def asin():
+def asin() -> Any:
     pass
 
-def asinh():
+def asinh() -> Any:
     pass
 
-def atan():
+def atan() -> Any:
     pass
 
-def atan2():
+def atan2() -> Any:
     pass
 
-def atanh():
+def atanh() -> Any:
     pass
 
-def ceil():
+def ceil() -> Any:
     pass
 
-def copysign():
+def copysign() -> Any:
     pass
 
-def cos():
+def cos() -> Any:
     pass
 
-def cosh():
+def cosh() -> Any:
     pass
 
-def degrees():
+def degrees() -> Any:
     pass
 
 e = 2.718282
-def erf():
+def erf() -> Any:
     pass
 
-def erfc():
+def erfc() -> Any:
     pass
 
-def exp():
+def exp() -> Any:
     pass
 
-def expm1():
+def expm1() -> Any:
     pass
 
-def fabs():
+def fabs() -> Any:
     pass
 
-def floor():
+def floor() -> Any:
     pass
 
-def fmod():
+def fmod() -> Any:
     pass
 
-def frexp():
+def frexp() -> Any:
     pass
 
-def gamma():
+def gamma() -> Any:
     pass
 
-def isclose():
+def isclose() -> Any:
     pass
 
-def isfinite():
+def isfinite() -> Any:
     pass
 
-def isinf():
+def isinf() -> Any:
     pass
 
-def isnan():
+def isnan() -> Any:
     pass
 
-def ldexp():
+def ldexp() -> Any:
     pass
 
-def lgamma():
+def lgamma() -> Any:
     pass
 
-def log():
+def log() -> Any:
     pass
 
-def log10():
+def log10() -> Any:
     pass
 
-def log2():
+def log2() -> Any:
     pass
 
-def modf():
+def modf() -> Any:
     pass
 
 pi = 3.141593
-def pow():
+def pow() -> Any:
     pass
 
-def radians():
+def radians() -> Any:
     pass
 
-def sin():
+def sin() -> Any:
     pass
 
-def sinh():
+def sinh() -> Any:
     pass
 
-def sqrt():
+def sqrt() -> Any:
     pass
 
-def tan():
+def tan() -> Any:
     pass
 
-def tanh():
+def tanh() -> Any:
     pass
 
-def trunc():
+def trunc() -> Any:
     pass
 

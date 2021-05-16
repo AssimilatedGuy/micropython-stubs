@@ -1,8 +1,10 @@
 """
 Module: 'network' on micropython-esp32-1.15
 """
-# MCU: {'ver': '1.15', 'port': 'esp32', 'arch': 'xtensawin', 'sysname': 'esp32', 'release': '1.15.0', 'name': 'micropython', 'mpy': 10757, 'version': '1.15.0', 'machine': 'ESP32 module with ESP32', 'build': '', 'nodename': 'esp32', 'platform': 'esp32', 'family': 'micropython'}
-# Stubber: 1.3.9
+# MCU: {'ver': '1.15', 'port': 'esp32', 'arch': 'xtensawin', 'sysname': 'esp32', 'release': '1.15.0', 'name': 'micropython', 'mpy': 10757, 'version': '1.15.0', 'machine': 'ESP32 module (spiram) with ESP32', 'build': '', 'nodename': 'esp32', 'platform': 'esp32', 'family': 'micropython'}
+# Stubber: 1.3.11
+from typing import Any
+
 AP_IF = 1
 AUTH_MAX = 8
 AUTH_OPEN = 0
@@ -17,7 +19,7 @@ MODE_11N = 4
 PHY_IP101 = 2
 PHY_LAN8720 = 0
 PHY_TLK110 = 1
-def PPP():
+def PPP() -> Any:
     pass
 
 STAT_ASSOC_FAIL = 203
@@ -29,9 +31,9 @@ STAT_IDLE = 1000
 STAT_NO_AP_FOUND = 201
 STAT_WRONG_PASSWORD = 202
 STA_IF = 0
-def WLAN():
+def WLAN() -> Any:
     pass
 
-def phy_mode():
+def phy_mode() -> Any:
     pass
 

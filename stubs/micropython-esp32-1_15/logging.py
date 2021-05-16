@@ -1,8 +1,10 @@
 """
 Module: 'logging' on micropython-esp32-1.15
 """
-# MCU: {'ver': '1.15', 'port': 'esp32', 'arch': 'xtensawin', 'sysname': 'esp32', 'release': '1.15.0', 'name': 'micropython', 'mpy': 10757, 'version': '1.15.0', 'machine': 'ESP32 module with ESP32', 'build': '', 'nodename': 'esp32', 'platform': 'esp32', 'family': 'micropython'}
-# Stubber: 1.3.9
+# MCU: {'ver': '1.15', 'port': 'esp32', 'arch': 'xtensawin', 'sysname': 'esp32', 'release': '1.15.0', 'name': 'micropython', 'mpy': 10757, 'version': '1.15.0', 'machine': 'ESP32 module (spiram) with ESP32', 'build': '', 'nodename': 'esp32', 'platform': 'esp32', 'family': 'micropython'}
+# Stubber: 1.3.11
+from typing import Any
+
 CRITICAL = 50
 DEBUG = 10
 ERROR = 40
@@ -10,56 +12,56 @@ INFO = 20
 
 class Logger:
     ''
-    def _level_str():
+    def _level_str(self) -> Any:
         pass
 
-    def critical():
+    def critical(self) -> Any:
         pass
 
-    def debug():
+    def debug(self) -> Any:
         pass
 
-    def error():
+    def error(self) -> Any:
         pass
 
-    def exc():
+    def exc(self) -> Any:
         pass
 
-    def exception():
+    def exception(self) -> Any:
         pass
 
-    def info():
+    def info(self) -> Any:
         pass
 
-    def isEnabledFor():
+    def isEnabledFor(self) -> Any:
         pass
 
     level = 0
-    def log():
+    def log(self) -> Any:
         pass
 
-    def setLevel():
+    def setLevel(self) -> Any:
         pass
 
-    def warning():
+    def warning(self) -> Any:
         pass
 
 NOTSET = 0
 WARNING = 30
 _level = 20
-_level_dict = None
-_loggers = None
-_stream = None
-def basicConfig():
+_level_dict = Any
+_loggers = Any
+_stream = Any
+def basicConfig() -> Any:
     pass
 
-def debug():
+def debug() -> Any:
     pass
 
-def getLogger():
+def getLogger() -> Any:
     pass
 
-def info():
+def info() -> Any:
     pass
 
-sys = None
+sys = Any

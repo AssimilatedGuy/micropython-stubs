@@ -1,8 +1,10 @@
 """
 Module: 'uctypes' on micropython-esp32-1.15
 """
-# MCU: {'ver': '1.15', 'port': 'esp32', 'arch': 'xtensawin', 'sysname': 'esp32', 'release': '1.15.0', 'name': 'micropython', 'mpy': 10757, 'version': '1.15.0', 'machine': 'ESP32 module with ESP32', 'build': '', 'nodename': 'esp32', 'platform': 'esp32', 'family': 'micropython'}
-# Stubber: 1.3.9
+# MCU: {'ver': '1.15', 'port': 'esp32', 'arch': 'xtensawin', 'sysname': 'esp32', 'release': '1.15.0', 'name': 'micropython', 'mpy': 10757, 'version': '1.15.0', 'machine': 'ESP32 module (spiram) with ESP32', 'build': '', 'nodename': 'esp32', 'platform': 'esp32', 'family': 'micropython'}
+# Stubber: 1.3.11
+from typing import Any
+
 ARRAY = -1073741824
 BFINT16 = -671088640
 BFINT32 = -402653184
@@ -35,16 +37,16 @@ ULONG = 536870912
 ULONGLONG = 805306368
 USHORT = 268435456
 VOID = 0
-def addressof():
+def addressof() -> Any:
     pass
 
-def bytearray_at():
+def bytearray_at() -> Any:
     pass
 
-def bytes_at():
+def bytes_at() -> Any:
     pass
 
-def sizeof():
+def sizeof() -> Any:
     pass
 
 
