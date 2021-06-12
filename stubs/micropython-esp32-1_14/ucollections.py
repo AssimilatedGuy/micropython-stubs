@@ -5,7 +5,10 @@ Module: 'ucollections' on micropython-esp32-1.14
 # Stubber: 1.3.9
 
 class OrderedDict:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def clear():
         pass
 
@@ -41,7 +44,10 @@ class OrderedDict:
 
 
 class deque:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def append():
         pass
 

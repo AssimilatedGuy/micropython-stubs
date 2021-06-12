@@ -5,7 +5,10 @@ Module: 'onewire' on esp32 1.13.0-103
 # Stubber: 1.3.4
 
 class OneWire:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     MATCH_ROM = 85
     SEARCH_ROM = 240
     SKIP_ROM = 204

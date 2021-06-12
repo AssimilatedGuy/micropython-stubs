@@ -21,7 +21,10 @@ def getaddrinfo() -> Any:
 
 
 class socket:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def accept(self) -> Any:
         pass
 

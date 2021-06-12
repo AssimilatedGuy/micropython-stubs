@@ -5,7 +5,10 @@ Module: 'framebuf' on LEGO EV3 v1.0.0
 # Stubber: 1.3.2
 
 class FrameBuffer:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def blit():
         pass
 

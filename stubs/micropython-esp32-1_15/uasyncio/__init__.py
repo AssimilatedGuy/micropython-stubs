@@ -10,7 +10,10 @@ class CancelledError:
     ''
 
 class Event:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def clear(self) -> Any:
         pass
 
@@ -23,7 +26,10 @@ class Event:
     wait = Any
 
 class IOQueue:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def _dequeue(self) -> Any:
         pass
 
@@ -44,7 +50,10 @@ class IOQueue:
 
 
 class Lock:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     acquire = Any
     def locked(self) -> Any:
         pass
@@ -54,7 +63,10 @@ class Lock:
 
 
 class Loop:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     _exc_handler = Any
     def call_exception_handler(self) -> Any:
         pass
@@ -85,10 +97,16 @@ class Loop:
 
 
 class SingletonGenerator:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
 
 class StreamReader:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     aclose = Any
     awrite = Any
     awritestr = Any
@@ -108,7 +126,10 @@ class StreamReader:
 
 
 class StreamWriter:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     aclose = Any
     awrite = Any
     awritestr = Any
@@ -128,10 +149,16 @@ class StreamWriter:
 
 
 class Task:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
 
 class TaskQueue:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def peek(self) -> Any:
         pass
 
@@ -149,7 +176,10 @@ class TaskQueue:
 
 
 class ThreadSafeFlag:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def ioctl(self) -> Any:
         pass
 

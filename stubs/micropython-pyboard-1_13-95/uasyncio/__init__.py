@@ -8,7 +8,10 @@ class CancelledError:
     ''
 
 class Event:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def clear():
         pass
 
@@ -21,7 +24,10 @@ class Event:
     wait = None
 
 class IOQueue:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def _dequeue():
         pass
 
@@ -42,7 +48,10 @@ class IOQueue:
 
 
 class Lock:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     acquire = None
     def locked():
         pass
@@ -52,7 +61,10 @@ class Lock:
 
 
 class Loop:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     _exc_handler = None
     def call_exception_handler():
         pass
@@ -83,10 +95,16 @@ class Loop:
 
 
 class SingletonGenerator:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
 
 class StreamReader:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     aclose = None
     awrite = None
     awritestr = None
@@ -106,7 +124,10 @@ class StreamReader:
 
 
 class StreamWriter:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     aclose = None
     awrite = None
     awritestr = None
@@ -126,4 +147,7 @@ class StreamWriter:
 
 
 class Task:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+

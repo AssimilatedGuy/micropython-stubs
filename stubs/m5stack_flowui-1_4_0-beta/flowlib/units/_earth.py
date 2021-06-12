@@ -5,7 +5,10 @@ Module: 'flowlib.units._earth' on M5 FlowUI v1.4.0-beta
 # Stubber: 1.3.1
 
 class Earth:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     analogValue = None
     def deinit():
         pass

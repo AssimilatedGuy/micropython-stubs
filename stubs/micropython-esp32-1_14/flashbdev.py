@@ -5,7 +5,10 @@ Module: 'flashbdev' on micropython-esp32-1.14
 # Stubber: 1.3.9
 
 class Partition:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     BOOT = 0
     RUNNING = 1
     TYPE_APP = 0

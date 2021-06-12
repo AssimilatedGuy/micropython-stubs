@@ -7,7 +7,10 @@ from typing import Any
 
 
 class FrameBuffer:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def blit(self) -> Any:
         pass
 

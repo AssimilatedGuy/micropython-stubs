@@ -13,7 +13,10 @@ GYRO_FS_SEL_250DPS = 0
 GYRO_FS_SEL_500DPS = 8
 
 class I2C:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     CB_DATA = 3
     CB_READ = 1
     CB_WRITE = 2
@@ -89,7 +92,10 @@ class I2C:
 
 
 class MPU6500:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def _accel_fs():
         pass
 
@@ -110,7 +116,10 @@ class MPU6500:
     whoami = None
 
 class Pin:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     IN = 1
     INOUT = 3
     INOUT_OD = 7

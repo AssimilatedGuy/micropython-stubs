@@ -5,7 +5,10 @@ Module: 'urequests' on esp8266 v1.9.3
 # Stubber: 1.1.2
 
 class Response:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def close():
         pass
 

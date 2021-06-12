@@ -7,7 +7,10 @@ from typing import Any
 
 
 class BufferedWriter:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def flush(self) -> Any:
         pass
 
@@ -16,7 +19,10 @@ class BufferedWriter:
 
 
 class BytesIO:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def close(self) -> Any:
         pass
 
@@ -46,7 +52,10 @@ class BytesIO:
 
 
 class FileIO:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def close(self) -> Any:
         pass
 
@@ -76,10 +85,16 @@ class FileIO:
 
 
 class IOBase:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
 
 class StringIO:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def close(self) -> Any:
         pass
 
@@ -109,7 +124,10 @@ class StringIO:
 
 
 class TextIOWrapper:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def close(self) -> Any:
         pass
 

@@ -12,7 +12,10 @@ M = 2
 MULTILINE = 2
 
 class PCREMatch:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def end():
         pass
 
@@ -30,7 +33,10 @@ class PCREMatch:
 
 
 class PCREPattern:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def findall():
         pass
 

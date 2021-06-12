@@ -23,10 +23,16 @@ class EOFError:
 Ellipsis = Any
 
 class Exception:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
 
 class GeneratorExit:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
 
 class ImportError:
     ''
@@ -41,7 +47,10 @@ class KeyError:
     ''
 
 class KeyboardInterrupt:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
 
 class LookupError:
     ''
@@ -66,16 +75,25 @@ class RuntimeError:
     ''
 
 class StopAsyncIteration:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
 
 class StopIteration:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
 
 class SyntaxError:
     ''
 
 class SystemExit:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
 
 class TypeError:
     ''
@@ -105,10 +123,16 @@ def bin() -> Any:
 
 
 class bool:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
 
 class bytearray:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def append(self) -> Any:
         pass
 
@@ -120,7 +144,10 @@ class bytearray:
 
 
 class bytes:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def center(self) -> Any:
         pass
 
@@ -210,19 +237,28 @@ def chr() -> Any:
 
 
 class classmethod:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
 def compile() -> Any:
     pass
 
 
 class complex:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
 def delattr() -> Any:
     pass
 
 
 class dict:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def clear(self) -> Any:
         pass
 
@@ -264,7 +300,10 @@ def divmod() -> Any:
 
 
 class enumerate:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
 def eval() -> Any:
     pass
 
@@ -276,13 +315,22 @@ def execfile() -> Any:
 
 
 class filter:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
 
 class float:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
 
 class frozenset:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def copy(self) -> Any:
         pass
 
@@ -333,7 +381,10 @@ def input() -> Any:
 
 
 class int:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def from_bytes(self) -> Any:
         pass
 
@@ -354,7 +405,10 @@ def len() -> Any:
 
 
 class list:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def append(self) -> Any:
         pass
 
@@ -393,13 +447,19 @@ def locals() -> Any:
 
 
 class map:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
 def max() -> Any:
     pass
 
 
 class memoryview:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
 def min() -> Any:
     pass
 
@@ -408,7 +468,10 @@ def next() -> Any:
 
 
 class object:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
 def oct() -> Any:
     pass
 
@@ -426,7 +489,10 @@ def print() -> Any:
 
 
 class property:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def deleter(self) -> Any:
         pass
 
@@ -438,19 +504,28 @@ class property:
 
 
 class range:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
 def repr() -> Any:
     pass
 
 
 class reversed:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
 def round() -> Any:
     pass
 
 
 class set:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def add(self) -> Any:
         pass
 
@@ -507,16 +582,25 @@ def setattr() -> Any:
 
 
 class slice:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
 def sorted() -> Any:
     pass
 
 
 class staticmethod:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
 
 class str:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def center(self) -> Any:
         pass
 
@@ -603,10 +687,16 @@ def sum() -> Any:
 
 
 class super:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
 
 class tuple:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def count(self) -> Any:
         pass
 
@@ -615,7 +705,13 @@ class tuple:
 
 
 class type:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
 
 class zip:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+

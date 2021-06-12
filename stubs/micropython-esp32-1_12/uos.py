@@ -5,7 +5,10 @@ Module: 'uos' on esp32 1.12.0
 # Stubber: 1.3.2
 
 class VfsFat:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def chdir():
         pass
 
@@ -47,7 +50,10 @@ class VfsFat:
 
 
 class VfsLfs2:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def chdir():
         pass
 

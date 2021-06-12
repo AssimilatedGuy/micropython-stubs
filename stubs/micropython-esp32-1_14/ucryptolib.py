@@ -5,7 +5,10 @@ Module: 'ucryptolib' on micropython-esp32-1.14
 # Stubber: 1.3.9
 
 class aes:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def decrypt():
         pass
 

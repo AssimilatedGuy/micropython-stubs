@@ -6,13 +6,19 @@ Module: 'flowlib.modules._lego' on M5 FlowUI v1.4.0-beta
 ENCODER_ADDR = 4
 
 class Lego:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def deinit():
         pass
 
 
 class Lego_Motor:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def _available():
         pass
 

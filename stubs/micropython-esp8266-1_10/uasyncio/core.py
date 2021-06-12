@@ -9,7 +9,10 @@ class CancelledError:
 DEBUG = 0
 
 class EventLoop:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def call_at_():
         pass
 
@@ -45,31 +48,46 @@ class EventLoop:
 
 
 class IORead:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def handle():
         pass
 
 
 class IOReadDone:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def handle():
         pass
 
 
 class IOWrite:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def handle():
         pass
 
 
 class IOWriteDone:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def handle():
         pass
 
 
 class PollEventLoop:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def add_reader():
         pass
 
@@ -117,26 +135,38 @@ class PollEventLoop:
 
 
 class SleepMs:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def handle():
         pass
 
 
 class StopLoop:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def handle():
         pass
 
 
 class StreamReader:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     aclose = None
     read = None
     readexactly = None
     readline = None
 
 class StreamWriter:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     aclose = None
     awrite = None
     awriteiter = None
@@ -145,13 +175,19 @@ class StreamWriter:
 
 
 class SysCall:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def handle():
         pass
 
 
 class SysCall1:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def handle():
         pass
 
@@ -163,7 +199,10 @@ class TimeoutError:
     ''
 
 class TimeoutObj:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
 _socket = None
 def cancel():
     pass
@@ -190,7 +229,10 @@ start_server = None
 time = None
 
 class type_gen:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def close():
         pass
 

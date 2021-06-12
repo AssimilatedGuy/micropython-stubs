@@ -5,7 +5,10 @@ Module: 'framebuf' on esp8266 v1.11
 # Stubber: 1.1.0
 
 class FrameBuffer:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def blit():
         pass
 

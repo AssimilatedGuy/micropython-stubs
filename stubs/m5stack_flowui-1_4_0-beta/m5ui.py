@@ -5,10 +5,16 @@ Module: 'm5ui' on M5 FlowUI v1.4.0-beta
 # Stubber: 1.3.1
 
 class M5Button:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
 
 class M5Circle:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def hide():
         pass
 
@@ -29,7 +35,10 @@ class M5Circle:
 
 
 class M5Img:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def changeImg():
         pass
 
@@ -44,7 +53,10 @@ class M5Img:
 
 
 class M5Rect:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def hide():
         pass
 
@@ -65,7 +77,10 @@ class M5Rect:
 
 
 class M5TextBox:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def hide():
         pass
 
@@ -89,7 +104,10 @@ class M5TextBox:
 
 
 class M5Title:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def hide():
         pass
 

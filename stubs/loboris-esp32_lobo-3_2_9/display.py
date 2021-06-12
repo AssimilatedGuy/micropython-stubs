@@ -5,7 +5,10 @@ Module: 'display' on esp32_LoBo 3.2.9
 # Stubber: 1.1.2
 
 class TFT:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     BLACK = 0
     BLUE = 255
     BMP = 2

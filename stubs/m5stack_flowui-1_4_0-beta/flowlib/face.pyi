@@ -4,7 +4,8 @@ CALC: str
 ENCODE: str
 FINGER: str
 
-class Face: ...
+class Face:
+    def __init__(self, *args: Any) -> None: ...
 
 GAMEBOY: str
 JOYSTICK: str

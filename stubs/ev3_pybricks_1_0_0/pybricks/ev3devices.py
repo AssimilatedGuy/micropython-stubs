@@ -5,7 +5,10 @@ Module: 'pybricks.ev3devices' on LEGO EV3 v1.0.0
 # Stubber: 1.3.2
 
 class Button:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     BEACON = 256
     CENTER = 32
     DOWN = 4
@@ -18,7 +21,10 @@ class Button:
     UP = 256
 
 class Color:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     BLACK = 1
     BLUE = 2
     BROWN = 7
@@ -30,7 +36,10 @@ class Color:
     YELLOW = 4
 
 class ColorSensor:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def _close_files():
         pass
 
@@ -60,12 +69,18 @@ class ColorSensor:
 
 
 class Direction:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     CLOCKWISE = 0
     COUNTERCLOCKWISE = 1
 
 class Ev3devSensor:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def _close_files():
         pass
 
@@ -83,7 +98,10 @@ class Ev3devSensor:
 
 
 class Ev3devUartSensor:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def _close_files():
         pass
 
@@ -107,7 +125,10 @@ class Ev3devUartSensor:
 
 
 class GyroSensor:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def _calibrate():
         pass
 
@@ -143,7 +164,10 @@ class GyroSensor:
 
 
 class InfraredSensor:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def _close_files():
         pass
 
@@ -171,7 +195,10 @@ class InfraredSensor:
 
 
 class Motor:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def angle():
         pass
 
@@ -219,7 +246,10 @@ class Motor:
 
 
 class StopWatch:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def pause():
         pass
 
@@ -234,7 +264,10 @@ class StopWatch:
 
 
 class TouchSensor:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def _close_files():
         pass
 
@@ -255,7 +288,10 @@ class TouchSensor:
 
 
 class UltrasonicSensor:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     PING_WAIT = 300
     def _close_files():
         pass

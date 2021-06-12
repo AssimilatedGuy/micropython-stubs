@@ -5,7 +5,10 @@ Stubber: 1.0.0
 """
 
 class AK8963:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def _register_char():
         pass
 
@@ -20,7 +23,10 @@ class AK8963:
     whoami = None
 
 class I2C:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     CBTYPE_ADDR = 1
     CBTYPE_NONE = 0
     CBTYPE_RXDATA = 2
@@ -121,7 +127,10 @@ OUTPUT_14_BIT = 0
 OUTPUT_16_BIT = 16
 
 class Pin:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     IN = 1
     INOUT = 3
     INOUT_OD = 7

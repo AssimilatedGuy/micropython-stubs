@@ -6,7 +6,10 @@ Module: 'uasyncio.core' on esp8266 v1.9.3
 DEBUG = 0
 
 class EventLoop:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def call_at_():
         pass
 
@@ -42,19 +45,34 @@ class EventLoop:
 
 
 class IORead:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
 
 class IOReadDone:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
 
 class IOWrite:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
 
 class IOWriteDone:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
 
 class PollEventLoop:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def add_reader():
         pass
 
@@ -72,20 +90,32 @@ class PollEventLoop:
 
 
 class SleepMs:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
 
 class StopLoop:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
 
 class StreamReader:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     aclose = None
     read = None
     readexactly = None
     readline = None
 
 class StreamWriter:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     aclose = None
     awrite = None
     awriteiter = None
@@ -94,13 +124,19 @@ class StreamWriter:
 
 
 class SysCall:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def handle():
         pass
 
 
 class SysCall1:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
 def Task():
     pass
 
@@ -127,7 +163,10 @@ start_server = None
 time = None
 
 class type_gen:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def close():
         pass
 

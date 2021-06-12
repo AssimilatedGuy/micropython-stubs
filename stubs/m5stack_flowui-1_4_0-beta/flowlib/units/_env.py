@@ -5,7 +5,10 @@ Module: 'flowlib.units._env' on M5 FlowUI v1.4.0-beta
 # Stubber: 1.3.1
 
 class Env:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def _available():
         pass
 

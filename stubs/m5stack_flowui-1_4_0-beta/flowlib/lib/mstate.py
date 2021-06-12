@@ -5,7 +5,10 @@ Module: 'flowlib.lib.mstate' on M5 FlowUI v1.4.0-beta
 # Stubber: 1.3.1
 
 class MState:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def end():
         pass
 
@@ -17,7 +20,10 @@ class MState:
 
 
 class MStateManager:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def change():
         pass
 

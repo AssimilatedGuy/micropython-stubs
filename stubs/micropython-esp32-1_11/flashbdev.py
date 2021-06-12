@@ -5,7 +5,10 @@ Module: 'flashbdev' on esp32 1.11.0
 # Stubber: 1.3.2
 
 class FlashBdev:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     SEC_SIZE = 4096
     START_SEC = 512
     def ioctl():

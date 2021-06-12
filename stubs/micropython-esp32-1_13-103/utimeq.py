@@ -5,7 +5,10 @@ Module: 'utimeq' on esp32 1.13.0-103
 # Stubber: 1.3.4
 
 class utimeq:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def peektime():
         pass
 

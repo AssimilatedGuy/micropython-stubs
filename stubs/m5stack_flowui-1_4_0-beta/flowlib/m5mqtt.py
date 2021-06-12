@@ -5,7 +5,10 @@ Module: 'flowlib.m5mqtt' on M5 FlowUI v1.4.0-beta
 # Stubber: 1.3.1
 
 class M5mqtt:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def _daemonTask():
         pass
 
@@ -32,7 +35,10 @@ class M5mqtt:
 
 
 class MQTTClient:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def _clean_sock_buffer():
         pass
 

@@ -5,7 +5,10 @@ Stubber: 1.0.0
 """
 
 class MicroWebTemplate:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def Execute():
         pass
 

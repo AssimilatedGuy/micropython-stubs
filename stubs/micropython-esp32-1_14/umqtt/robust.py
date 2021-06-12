@@ -5,7 +5,10 @@ Module: 'umqtt.robust' on micropython-esp32-1.14
 # Stubber: 1.3.9
 
 class MQTTClient:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     DEBUG = None
     DELAY = 2
     def _recv_len():

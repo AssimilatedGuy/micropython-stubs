@@ -7,7 +7,10 @@ from typing import Any
 
 
 class BLE:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def active(self) -> Any:
         pass
 
@@ -72,4 +75,7 @@ FLAG_WRITE = 8
 FLAG_WRITE_NO_RESPONSE = 4
 
 class UUID:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+

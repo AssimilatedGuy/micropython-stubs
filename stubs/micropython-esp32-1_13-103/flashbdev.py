@@ -5,7 +5,10 @@ Module: 'flashbdev' on esp32 1.13.0-103
 # Stubber: 1.3.4
 
 class Partition:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     BOOT = 0
     RUNNING = 1
     TYPE_APP = 0

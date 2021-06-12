@@ -5,7 +5,10 @@ Module: 'microWebSocket' on esp32_LoBo 3.2.9
 # Stubber: 1.1.2
 
 class MicroWebSocket:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def Close():
         pass
 
@@ -58,7 +61,10 @@ def pack():
 
 
 class sha1:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def digest():
         pass
 

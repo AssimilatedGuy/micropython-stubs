@@ -5,7 +5,10 @@ Module: 'machine' on esp32 1.10.0
 # Stubber: 1.3.2
 
 class ADC:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     ATTN_0DB = 0
     ATTN_11DB = 3
     ATTN_2_5DB = 1
@@ -25,7 +28,10 @@ class ADC:
 
 
 class DAC:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def write():
         pass
 
@@ -36,7 +42,10 @@ EXT1_WAKE = 2
 HARD_RESET = 2
 
 class I2C:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def init():
         pass
 
@@ -76,7 +85,10 @@ class I2C:
 PIN_WAKE = 1
 
 class PWM:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def deinit():
         pass
 
@@ -92,7 +104,10 @@ class PWM:
 PWRON_RESET = 1
 
 class Pin:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     IN = 1
     IRQ_FALLING = 2
     IRQ_RISING = 1
@@ -119,7 +134,10 @@ class Pin:
 
 
 class RTC:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def datetime():
         pass
 
@@ -133,7 +151,10 @@ SLEEP = 2
 SOFT_RESET = 5
 
 class SPI:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     LSB = 1
     MSB = 0
     def deinit():
@@ -156,7 +177,10 @@ class SPI:
 
 
 class Signal:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def off():
         pass
 
@@ -170,7 +194,10 @@ TIMER_WAKE = 3
 TOUCHPAD_WAKE = 4
 
 class Timer:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     ONE_SHOT = 0
     PERIODIC = 1
     def deinit():
@@ -184,7 +211,10 @@ class Timer:
 
 
 class TouchPad:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def config():
         pass
 
@@ -193,7 +223,10 @@ class TouchPad:
 
 
 class UART:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def any():
         pass
 
@@ -218,7 +251,10 @@ class UART:
 ULP_WAKE = 5
 
 class WDT:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def feed():
         pass
 

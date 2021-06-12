@@ -11,7 +11,10 @@ LIDARBOT = 'lidarBot'
 LORAWAN = 'lorawan'
 
 class Module:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
 PM25 = 'pm25'
 PORT_I2C = None
 PORT_UART = None

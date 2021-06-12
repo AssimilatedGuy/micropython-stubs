@@ -12,7 +12,10 @@ REQALL = 82
 REQIDL = 38
 
 class Rfid:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def _antenna_on():
         pass
 

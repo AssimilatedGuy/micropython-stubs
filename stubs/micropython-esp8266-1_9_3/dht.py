@@ -5,7 +5,10 @@ Module: 'dht' on esp8266 v1.9.3
 # Stubber: 1.1.2
 
 class DHT11:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def humidity():
         pass
 
@@ -14,7 +17,10 @@ class DHT11:
 
 
 class DHT22:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def humidity():
         pass
 
@@ -23,7 +29,10 @@ class DHT22:
 
 
 class DHTBase:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def measure():
         pass
 

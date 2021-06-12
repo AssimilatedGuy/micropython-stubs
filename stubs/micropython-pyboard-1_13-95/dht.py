@@ -5,7 +5,10 @@ Module: 'dht' on pyboard 1.13.0-95
 # Stubber: 1.3.4
 
 class DHT11:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def humidity():
         pass
 
@@ -17,7 +20,10 @@ class DHT11:
 
 
 class DHT22:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def humidity():
         pass
 
@@ -29,7 +35,10 @@ class DHT22:
 
 
 class DHTBase:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def measure():
         pass
 

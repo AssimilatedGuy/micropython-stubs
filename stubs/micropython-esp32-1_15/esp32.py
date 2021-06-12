@@ -9,7 +9,10 @@ HEAP_DATA = 4
 HEAP_EXEC = 1
 
 class NVS:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def commit(self) -> Any:
         pass
 
@@ -30,7 +33,10 @@ class NVS:
 
 
 class Partition:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     BOOT = 0
     RUNNING = 1
     TYPE_APP = 0
@@ -61,7 +67,10 @@ class Partition:
 
 
 class RMT:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def clock_div(self) -> Any:
         pass
 
@@ -82,7 +91,10 @@ class RMT:
 
 
 class ULP:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     RESERVE_MEM = 512
     def load_binary(self) -> Any:
         pass

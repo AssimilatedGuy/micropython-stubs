@@ -5,7 +5,10 @@ Module: 'esp32' on esp32 1.12.0
 # Stubber: 1.3.2
 
 class Partition:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     BOOT = 0
     RUNNING = 1
     TYPE_APP = 0
@@ -33,7 +36,10 @@ class Partition:
 
 
 class RMT:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def clock_div():
         pass
 
@@ -54,7 +60,10 @@ class RMT:
 
 
 class ULP:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     RESERVE_MEM = 512
     def load_binary():
         pass

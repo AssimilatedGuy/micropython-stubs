@@ -7,7 +7,10 @@ ONE_SHOT = 1
 PERIODIC = 0
 
 class Timer:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     ONE_SHOT = 1
     PERIODIC = 0
     def deinit():
@@ -18,7 +21,10 @@ class Timer:
 
 
 class TimerEx:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     ONE_SHOT = 1
     PERIODIC = 0
     def addTimer():

@@ -7,7 +7,10 @@ from typing import Any
 
 
 class utimeq:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def peektime(self) -> Any:
         pass
 

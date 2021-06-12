@@ -5,7 +5,10 @@ Module: 'flowlib.units._light' on M5 FlowUI v1.4.0-beta
 # Stubber: 1.3.1
 
 class Light:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     analogValue = None
     def deinit():
         pass

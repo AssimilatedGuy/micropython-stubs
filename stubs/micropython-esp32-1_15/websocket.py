@@ -7,7 +7,10 @@ from typing import Any
 
 
 class websocket:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def close(self) -> Any:
         pass
 

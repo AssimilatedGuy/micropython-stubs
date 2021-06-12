@@ -46,7 +46,10 @@ environ = None
 errno_ = None
 
 class error:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
 def execvp():
     pass
 
@@ -138,7 +141,10 @@ def system():
 system_ = None
 
 class uname:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     machine = 'ev3'
     nodename = 'ev3'
     release = None

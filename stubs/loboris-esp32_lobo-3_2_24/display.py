@@ -5,7 +5,10 @@ Stubber: 1.0.0
 """
 
 class TFT:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     BLACK = 0
     BLUE = 255
     BMP = 2

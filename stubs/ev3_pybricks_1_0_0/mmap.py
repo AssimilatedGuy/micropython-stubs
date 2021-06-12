@@ -13,7 +13,10 @@ PROT_READ = 1
 PROT_WRITE = 2
 
 class mmap:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def close():
         pass
 

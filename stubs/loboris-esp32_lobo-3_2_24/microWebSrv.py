@@ -5,7 +5,10 @@ Stubber: 1.0.0
 """
 
 class MicroWebSocket:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def Close():
         pass
 
@@ -50,7 +53,10 @@ class MicroWebSocket:
 
 
 class MicroWebSrv:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def GetMimeTypeFromFilename():
         pass
 
@@ -114,10 +120,16 @@ class MicroWebSrv:
 
 
 class MicroWebSrvRoute:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
 
 class MicroWebTemplate:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def Execute():
         pass
 

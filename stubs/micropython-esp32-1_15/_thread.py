@@ -7,7 +7,10 @@ from typing import Any
 
 
 class LockType:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def acquire(self) -> Any:
         pass
 

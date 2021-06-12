@@ -6,7 +6,10 @@ Module: 'flowlib.units._makey' on M5 FlowUI v1.4.0-beta
 MAKEY_I2C_ADDR = 81
 
 class Makey:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def _available():
         pass
 

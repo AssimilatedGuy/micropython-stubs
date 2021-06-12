@@ -7,7 +7,10 @@ from typing import Any
 
 
 class APA106:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     ORDER = Any
     def fill(self) -> Any:
         pass
@@ -17,7 +20,10 @@ class APA106:
 
 
 class NeoPixel:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     ORDER = Any
     def fill(self) -> Any:
         pass

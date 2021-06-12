@@ -5,7 +5,10 @@ Module: 'utimeq' on esp8266 v1.10
 # Stubber: 1.1.0
 
 class utimeq:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def peektime():
         pass
 

@@ -5,7 +5,10 @@ Module: 'ds18x20' on esp8266 v1.9.4
 # Stubber: 1.1.2
 
 class DS18X20:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def convert_temp():
         pass
 

@@ -5,7 +5,10 @@ Module: 'flowlib.lib.imu' on M5 FlowUI v1.4.0-beta
 # Stubber: 1.3.1
 
 class IMU:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def _accel_fs():
         pass
 

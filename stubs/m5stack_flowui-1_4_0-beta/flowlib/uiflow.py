@@ -5,7 +5,10 @@ Module: 'flowlib.uiflow' on M5 FlowUI v1.4.0-beta
 # Stubber: 1.3.1
 
 class Btn:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def attach():
         pass
 
@@ -26,7 +29,10 @@ class Btn:
 
 
 class BtnChild:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def deinit():
         pass
 
@@ -56,7 +62,10 @@ class BtnChild:
 
 
 class IP5306:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def getBatteryLevel():
         pass
 
@@ -80,7 +89,10 @@ class IP5306:
 
 
 class Rgb_multi:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def deinit():
         pass
 
@@ -104,7 +116,10 @@ class Rgb_multi:
 
 
 class Speaker:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def _timeout_cb():
         pass
 
@@ -155,7 +170,10 @@ def flowDeinit():
 
 
 class flowExit:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
 gc = None
 def getP2PData():
     pass

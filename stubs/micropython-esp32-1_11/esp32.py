@@ -5,7 +5,10 @@ Module: 'esp32' on esp32 1.11.0
 # Stubber: 1.3.2
 
 class ULP:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     RESERVE_MEM = 0
     def load_binary():
         pass

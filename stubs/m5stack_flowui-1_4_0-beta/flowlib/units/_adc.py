@@ -6,7 +6,10 @@ Module: 'flowlib.units._adc' on M5 FlowUI v1.4.0-beta
 ADDRESS = 72
 
 class Adc:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def _available():
         pass
 

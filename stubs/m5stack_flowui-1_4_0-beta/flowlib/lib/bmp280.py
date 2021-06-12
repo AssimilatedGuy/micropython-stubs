@@ -5,7 +5,10 @@ Module: 'flowlib.lib.bmp280' on M5 FlowUI v1.4.0-beta
 # Stubber: 1.3.1
 
 class BMP280:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def compute_delay_time():
         pass
 
@@ -35,7 +38,10 @@ T_MEASURE_PER_OSRS_MAX = 2313
 T_SETUP_PRESSURE_MAX = 625
 
 class array:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def append():
         pass
 

@@ -5,7 +5,10 @@ Module: '_thread' on esp32 1.11.0
 # Stubber: 1.3.2
 
 class LockType:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def acquire():
         pass
 

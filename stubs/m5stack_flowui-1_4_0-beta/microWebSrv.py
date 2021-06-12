@@ -5,7 +5,10 @@ Module: 'microWebSrv' on M5 FlowUI v1.4.0-beta
 # Stubber: 1.3.1
 
 class MicroWebSocket:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def Close():
         pass
 
@@ -50,7 +53,10 @@ class MicroWebSocket:
 
 
 class MicroWebSrv:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def GetMimeTypeFromFilename():
         pass
 
@@ -114,10 +120,16 @@ class MicroWebSrv:
 
 
 class MicroWebSrvRoute:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
 
 class MicroWebTemplate:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def Execute():
         pass
 

@@ -31,7 +31,10 @@ def sockaddr():
 
 
 class socket:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def accept():
         pass
 

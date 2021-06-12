@@ -22,7 +22,10 @@ SET_SEG_REMAP = 160
 SET_VCOM_DESEL = 219
 
 class SSD1306:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def contrast():
         pass
 
@@ -43,7 +46,10 @@ class SSD1306:
 
 
 class SSD1306_I2C:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def write_cmd():
         pass
 
@@ -52,7 +58,10 @@ class SSD1306_I2C:
 
 
 class SSD1306_SPI:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def write_cmd():
         pass
 

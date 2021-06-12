@@ -5,7 +5,10 @@ Module: 'machine' on esp8266 v1.9.3
 # Stubber: 1.1.2
 
 class ADC:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def read():
         pass
 
@@ -14,7 +17,10 @@ DEEPSLEEP_RESET = 5
 HARD_RESET = 6
 
 class I2C:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def init():
         pass
 
@@ -53,7 +59,10 @@ class I2C:
 
 
 class PWM:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def deinit():
         pass
 
@@ -69,7 +78,10 @@ class PWM:
 PWRON_RESET = 0
 
 class Pin:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     IN = 0
     IRQ_FALLING = 2
     IRQ_RISING = 1
@@ -93,7 +105,10 @@ class Pin:
 
 
 class RTC:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     ALARM0 = 0
     def alarm():
         pass
@@ -113,7 +128,10 @@ class RTC:
 SOFT_RESET = 4
 
 class SPI:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     LSB = 1
     MSB = 0
     def deinit():
@@ -136,7 +154,10 @@ class SPI:
 
 
 class Signal:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def off():
         pass
 
@@ -148,7 +169,10 @@ class Signal:
 
 
 class Timer:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     ONE_SHOT = 0
     PERIODIC = 1
     def deinit():
@@ -159,7 +183,10 @@ class Timer:
 
 
 class UART:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def any():
         pass
 
@@ -180,7 +207,10 @@ class UART:
 
 
 class WDT:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def deinit():
         pass
 

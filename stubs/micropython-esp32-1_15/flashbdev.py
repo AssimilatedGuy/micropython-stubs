@@ -7,7 +7,10 @@ from typing import Any
 
 
 class Partition:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     BOOT = 0
     RUNNING = 1
     TYPE_APP = 0

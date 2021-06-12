@@ -51,4 +51,7 @@ def sizeof() -> Any:
 
 
 class struct:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+

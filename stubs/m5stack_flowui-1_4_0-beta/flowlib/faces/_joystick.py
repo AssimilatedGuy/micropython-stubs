@@ -5,7 +5,10 @@ Module: 'flowlib.faces._joystick' on M5 FlowUI v1.4.0-beta
 # Stubber: 1.3.1
 
 class Joystick:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     InvertX = None
     InvertY = None
     Press = None

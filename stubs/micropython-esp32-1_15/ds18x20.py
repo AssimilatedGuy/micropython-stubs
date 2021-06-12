@@ -7,7 +7,10 @@ from typing import Any
 
 
 class DS18X20:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def convert_temp(self) -> Any:
         pass
 

@@ -7,7 +7,10 @@ from typing import Any
 
 
 class Server:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     _serve = Any
     def close(self) -> Any:
         pass
@@ -15,7 +18,10 @@ class Server:
     wait_closed = Any
 
 class Stream:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     aclose = Any
     awrite = Any
     awritestr = Any
@@ -35,7 +41,10 @@ class Stream:
 
 
 class StreamReader:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     aclose = Any
     awrite = Any
     awritestr = Any
@@ -55,7 +64,10 @@ class StreamReader:
 
 
 class StreamWriter:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     aclose = Any
     awrite = Any
     awritestr = Any

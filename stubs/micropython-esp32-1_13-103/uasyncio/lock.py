@@ -5,7 +5,10 @@ Module: 'uasyncio.lock' on esp32 1.13.0-103
 # Stubber: 1.3.4
 
 class Lock:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     acquire = None
     def locked():
         pass

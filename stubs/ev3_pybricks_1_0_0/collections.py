@@ -5,10 +5,16 @@ Module: 'collections' on LEGO EV3 v1.0.0
 # Stubber: 1.3.2
 
 class MutableMapping:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
 
 class OrderedDict:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def clear():
         pass
 
@@ -44,10 +50,16 @@ class OrderedDict:
 
 
 class defaultdict:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
 
 class deque:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def append():
         pass
 

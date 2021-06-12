@@ -5,7 +5,10 @@ Module: 'websocket' on esp32 1.11.0
 # Stubber: 1.3.2
 
 class websocket:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def close():
         pass
 

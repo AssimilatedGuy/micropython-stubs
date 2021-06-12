@@ -5,7 +5,10 @@ Module: 'bluetooth' on esp32 1.13.0-103
 # Stubber: 1.3.4
 
 class BLE:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def active():
         pass
 
@@ -70,4 +73,7 @@ FLAG_WRITE = 8
 FLAG_WRITE_NO_RESPONSE = 4
 
 class UUID:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+

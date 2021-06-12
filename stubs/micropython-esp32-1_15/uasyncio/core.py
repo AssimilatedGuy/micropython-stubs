@@ -10,7 +10,10 @@ class CancelledError:
     ''
 
 class IOQueue:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def _dequeue(self) -> Any:
         pass
 
@@ -31,7 +34,10 @@ class IOQueue:
 
 
 class Loop:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     _exc_handler = Any
     def call_exception_handler(self) -> Any:
         pass
@@ -62,13 +68,22 @@ class Loop:
 
 
 class SingletonGenerator:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
 
 class Task:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
 
 class TaskQueue:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def peek(self) -> Any:
         pass
 

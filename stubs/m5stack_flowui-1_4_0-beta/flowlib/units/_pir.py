@@ -5,7 +5,10 @@ Module: 'flowlib.units._pir' on M5 FlowUI v1.4.0-beta
 # Stubber: 1.3.1
 
 class Pin:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     IN = 1
     INOUT = 3
     IRQ_FALLING = 2
@@ -39,7 +42,10 @@ class Pin:
 
 
 class Pir:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def deinit():
         pass
 

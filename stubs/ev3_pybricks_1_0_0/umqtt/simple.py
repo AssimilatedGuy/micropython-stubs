@@ -5,7 +5,10 @@ Module: 'umqtt.simple' on LEGO EV3 v1.0.0
 # Stubber: 1.3.2
 
 class MQTTClient:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def _recv_len():
         pass
 

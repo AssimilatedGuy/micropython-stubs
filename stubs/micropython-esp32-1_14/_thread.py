@@ -5,7 +5,10 @@ Module: '_thread' on micropython-esp32-1.14
 # Stubber: 1.3.9
 
 class LockType:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def acquire():
         pass
 

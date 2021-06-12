@@ -5,7 +5,10 @@ Module: 'flowlib.faces._keyboard' on M5 FlowUI v1.4.0-beta
 # Stubber: 1.3.1
 
 class Keyboard:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def _available():
         pass
 

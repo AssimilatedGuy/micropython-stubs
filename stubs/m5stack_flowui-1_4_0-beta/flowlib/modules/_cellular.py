@@ -5,7 +5,10 @@ Module: 'flowlib.modules._cellular' on M5 FlowUI v1.4.0-beta
 # Stubber: 1.3.1
 
 class Cellular:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def _getResponse():
         pass
 

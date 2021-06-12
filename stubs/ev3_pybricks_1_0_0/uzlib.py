@@ -5,7 +5,10 @@ Module: 'uzlib' on LEGO EV3 v1.0.0
 # Stubber: 1.3.2
 
 class DecompIO:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def read():
         pass
 

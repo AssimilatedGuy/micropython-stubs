@@ -5,7 +5,10 @@ Module: 'display' on M5 FlowUI v1.4.0-beta
 # Stubber: 1.3.1
 
 class TFT:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     BLACK = 0
     BLUE = 255
     BMP = 2

@@ -5,7 +5,10 @@ Module: 'dht' on micropython-esp32-1.14
 # Stubber: 1.3.9
 
 class DHT11:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def humidity():
         pass
 
@@ -17,7 +20,10 @@ class DHT11:
 
 
 class DHT22:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def humidity():
         pass
 
@@ -29,7 +35,10 @@ class DHT22:
 
 
 class DHTBase:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def measure():
         pass
 

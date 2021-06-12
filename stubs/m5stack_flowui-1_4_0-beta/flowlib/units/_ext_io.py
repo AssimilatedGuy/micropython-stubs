@@ -5,7 +5,10 @@ Module: 'flowlib.units._ext_io' on M5 FlowUI v1.4.0-beta
 # Stubber: 1.3.1
 
 class Ext_io:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     ALL_INPUT = 255
     ALL_OUTPUT = 0
     INPUT = 1

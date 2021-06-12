@@ -5,14 +5,20 @@ Module: 'apa102' on esp8266 v1.9.3
 # Stubber: 1.1.2
 
 class APA102:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     ORDER = None
     def write():
         pass
 
 
 class NeoPixel:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     ORDER = None
     def fill():
         pass

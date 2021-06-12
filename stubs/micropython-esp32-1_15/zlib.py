@@ -7,7 +7,10 @@ from typing import Any
 
 
 class DecompIO:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def read(self) -> Any:
         pass
 

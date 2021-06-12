@@ -5,7 +5,10 @@ Module: 'uasyncio.stream' on pyboard 1.13.0-95
 # Stubber: 1.3.4
 
 class Server:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     _serve = None
     def close():
         pass
@@ -13,7 +16,10 @@ class Server:
     wait_closed = None
 
 class Stream:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     aclose = None
     awrite = None
     awritestr = None
@@ -33,7 +39,10 @@ class Stream:
 
 
 class StreamReader:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     aclose = None
     awrite = None
     awritestr = None
@@ -53,7 +62,10 @@ class StreamReader:
 
 
 class StreamWriter:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     aclose = None
     awrite = None
     awritestr = None

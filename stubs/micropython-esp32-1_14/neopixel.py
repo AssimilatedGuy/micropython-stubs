@@ -5,7 +5,10 @@ Module: 'neopixel' on micropython-esp32-1.14
 # Stubber: 1.3.9
 
 class NeoPixel:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     ORDER = None
     def fill():
         pass

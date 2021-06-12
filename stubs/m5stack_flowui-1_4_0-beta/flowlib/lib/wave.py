@@ -5,7 +5,10 @@ Module: 'flowlib.lib.wave' on M5 FlowUI v1.4.0-beta
 # Stubber: 1.3.1
 
 class Error:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
 WAVE_FORMAT_PCM = 1
 _array_fmts = None
 builtins = None

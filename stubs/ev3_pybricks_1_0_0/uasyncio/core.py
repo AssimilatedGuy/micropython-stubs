@@ -9,7 +9,10 @@ class CancelledError:
 DEBUG = 0
 
 class EventLoop:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def call_at_():
         pass
 
@@ -45,49 +48,73 @@ class EventLoop:
 
 
 class IORead:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def handle():
         pass
 
 
 class IOReadDone:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def handle():
         pass
 
 
 class IOWrite:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def handle():
         pass
 
 
 class IOWriteDone:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def handle():
         pass
 
 
 class SleepMs:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def handle():
         pass
 
 
 class StopLoop:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def handle():
         pass
 
 
 class SysCall:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def handle():
         pass
 
 
 class SysCall1:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def handle():
         pass
 
@@ -99,11 +126,17 @@ class TimeoutError:
     ''
 
 class TimeoutObj:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
 _event_loop = None
 
 class _event_loop_class:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def add_reader():
         pass
 
@@ -171,7 +204,10 @@ sleep_ms = None
 time = None
 
 class type_gen:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def close():
         pass
 

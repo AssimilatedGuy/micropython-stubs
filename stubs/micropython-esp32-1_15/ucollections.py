@@ -7,7 +7,10 @@ from typing import Any
 
 
 class OrderedDict:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def clear(self) -> Any:
         pass
 
@@ -43,7 +46,10 @@ class OrderedDict:
 
 
 class deque:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def append(self) -> Any:
         pass
 

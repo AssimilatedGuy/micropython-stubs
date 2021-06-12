@@ -5,7 +5,10 @@ Module: 'pybricks.uev3dev._wand' on LEGO EV3 v1.0.0
 # Stubber: 1.3.2
 
 class CompositeOp:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     ALPHA = 1
     ATOP = 2
     BLEND = 3
@@ -79,7 +82,10 @@ class CompositeOp:
     XOR = 70
 
 class Gravity:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     CENTER = 6
     EAST = 7
     FORGET = 1
@@ -93,7 +99,10 @@ class Gravity:
     WEST = 5
 
 class MagickWand:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def _raise_error():
         pass
 
@@ -135,7 +144,10 @@ class PixelError:
     ''
 
 class PixelWand:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def _raise_error():
         pass
 
@@ -147,7 +159,10 @@ class PixelWand:
 
 
 class StorageType:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     CHAR = 1
     DOUBLE = 2
     FLOAT = 3

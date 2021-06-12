@@ -5,7 +5,10 @@ Module: 'pybricks.display' on LEGO EV3 v1.0.0
 # Stubber: 1.3.2
 
 class Align:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     BOTTOM = 2
     BOTTOM_LEFT = 1
     BOTTOM_RIGHT = 3
@@ -17,7 +20,10 @@ class Align:
     TOP_RIGHT = 9
 
 class Display:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     _font_height = 8
     def _next_line():
         pass
@@ -37,7 +43,10 @@ class Display:
 
 
 class Ev3devDisplay:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def image():
         pass
 
@@ -55,5 +64,8 @@ class Ev3devDisplay:
 
 
 class ImageFile:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
 path = None

@@ -5,7 +5,10 @@ Module: 'ds18x20' on esp32 1.10.0
 # Stubber: 1.3.2
 
 class DS18X20:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def convert_temp():
         pass
 

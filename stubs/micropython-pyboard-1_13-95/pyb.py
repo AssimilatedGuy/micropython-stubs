@@ -5,7 +5,10 @@ Module: 'pyb' on pyboard 1.13.0-95
 # Stubber: 1.3.4
 
 class ADC:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def read():
         pass
 
@@ -17,7 +20,10 @@ class ADC:
 
 
 class ADCAll:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def read_channel():
         pass
 
@@ -35,7 +41,10 @@ class ADCAll:
 
 
 class Accel:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def filtered_xyz():
         pass
 
@@ -59,7 +68,10 @@ class Accel:
 
 
 class CAN:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     BUS_OFF = 4
     ERROR_ACTIVE = 1
     ERROR_PASSIVE = 3
@@ -111,7 +123,10 @@ class CAN:
 
 
 class DAC:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     CIRCULAR = 256
     NORMAL = 0
     def deinit():
@@ -134,7 +149,10 @@ class DAC:
 
 
 class ExtInt:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     EVT_FALLING = 270663680
     EVT_RISING = 269615104
     EVT_RISING_FALLING = 271712256
@@ -158,7 +176,10 @@ class ExtInt:
 
 
 class Flash:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def ioctl():
         pass
 
@@ -170,7 +191,10 @@ class Flash:
 
 
 class I2C:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     MASTER = 0
     SLAVE = 1
     def deinit():
@@ -199,7 +223,10 @@ class I2C:
 
 
 class LCD:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def command():
         pass
 
@@ -229,7 +256,10 @@ class LCD:
 
 
 class LED:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def intensity():
         pass
 
@@ -244,7 +274,10 @@ class LED:
 
 
 class Pin:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     AF1_TIM1 = 1
     AF1_TIM2 = 1
     AF2_TIM3 = 2
@@ -344,7 +377,10 @@ class Pin:
 
 
 class RTC:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def calibration():
         pass
 
@@ -363,7 +399,10 @@ class RTC:
 SD = None
 
 class SDCard:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def info():
         pass
 
@@ -390,7 +429,10 @@ class SDCard:
 
 
 class SPI:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     LSB = 128
     MASTER = 260
     MSB = 0
@@ -424,7 +466,10 @@ class SPI:
 
 
 class Servo:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def angle():
         pass
 
@@ -439,7 +484,10 @@ class Servo:
 
 
 class Switch:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def callback():
         pass
 
@@ -448,7 +496,10 @@ class Switch:
 
 
 class Timer:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     BOTH = 10
     BRK_HIGH = 2
     BRK_LOW = 1
@@ -501,7 +552,10 @@ class Timer:
 
 
 class UART:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     CTS = 512
     IRQ_RXIDLE = 16
     RTS = 256
@@ -540,7 +594,10 @@ class UART:
 
 
 class USB_HID:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def recv():
         pass
 
@@ -549,7 +606,10 @@ class USB_HID:
 
 
 class USB_VCP:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     CTS = 2
     RTS = 1
     def any():

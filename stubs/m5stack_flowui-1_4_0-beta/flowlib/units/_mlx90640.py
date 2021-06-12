@@ -5,7 +5,10 @@ Module: 'flowlib.units._mlx90640' on M5 FlowUI v1.4.0-beta
 # Stubber: 1.3.1
 
 class Mlx90640:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     apply = None
     def deinit():
         pass

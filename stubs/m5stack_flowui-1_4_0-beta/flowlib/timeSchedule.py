@@ -7,7 +7,10 @@ ONE_SHOT = 1
 PERIODIC = 0
 
 class Timer:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     ONE_SHOT = 1
     PERIODIC = 0
     def deinit():
@@ -32,7 +35,10 @@ machine = None
 time = None
 
 class timeSch:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     ONE_SHOT = 1
     PERIODIC = 0
     def checkInit():

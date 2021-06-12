@@ -5,7 +5,10 @@ Module: 'ds18x20' on micropython-esp32-1.14
 # Stubber: 1.3.9
 
 class DS18X20:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def convert_temp():
         pass
 

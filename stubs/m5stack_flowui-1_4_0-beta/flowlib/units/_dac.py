@@ -5,7 +5,10 @@ Module: 'flowlib.units._dac' on M5 FlowUI v1.4.0-beta
 # Stubber: 1.3.1
 
 class Dac:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     WRITE = 64
     WRITE_EEPROM = 96
     def _available():

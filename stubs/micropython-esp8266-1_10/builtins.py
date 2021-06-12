@@ -21,10 +21,16 @@ class EOFError:
 Ellipsis = None
 
 class Exception:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
 
 class GeneratorExit:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
 
 class ImportError:
     ''
@@ -39,7 +45,10 @@ class KeyError:
     ''
 
 class KeyboardInterrupt:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
 
 class LookupError:
     ''
@@ -63,16 +72,25 @@ class RuntimeError:
     ''
 
 class StopAsyncIteration:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
 
 class StopIteration:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
 
 class SyntaxError:
     ''
 
 class SystemExit:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
 
 class TypeError:
     ''
@@ -102,10 +120,16 @@ def bin():
 
 
 class bool:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
 
 class bytearray:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def append():
         pass
 
@@ -114,4 +138,7 @@ class bytearray:
 
 
 class bytes:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+

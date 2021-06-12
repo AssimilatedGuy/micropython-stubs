@@ -6,7 +6,10 @@ Module: 'upip_utarfile' on esp8266 v1.9.4
 DIRTYPE = 'dir'
 
 class FileSection:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def read():
         pass
 
@@ -20,4 +23,7 @@ REGTYPE = 'file'
 TAR_HEADER = None
 
 class TarFile:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+

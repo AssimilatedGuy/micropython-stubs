@@ -5,7 +5,10 @@ Stubber: 1.0.0
 """
 
 class FrameBuffer:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def blit():
         pass
 

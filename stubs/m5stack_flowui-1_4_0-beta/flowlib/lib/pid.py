@@ -5,7 +5,10 @@ Module: 'flowlib.lib.pid' on M5 FlowUI v1.4.0-beta
 # Stubber: 1.3.1
 
 class PID:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def get_pid():
         pass
 

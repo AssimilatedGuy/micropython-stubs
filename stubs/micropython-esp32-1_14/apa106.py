@@ -5,7 +5,10 @@ Module: 'apa106' on micropython-esp32-1.14
 # Stubber: 1.3.9
 
 class APA106:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     ORDER = None
     def fill():
         pass
@@ -15,7 +18,10 @@ class APA106:
 
 
 class NeoPixel:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     ORDER = None
     def fill():
         pass

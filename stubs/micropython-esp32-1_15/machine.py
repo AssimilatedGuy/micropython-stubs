@@ -7,7 +7,10 @@ from typing import Any
 
 
 class ADC:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     ATTN_0DB = 0
     ATTN_11DB = 3
     ATTN_2_5DB = 1
@@ -30,7 +33,10 @@ class ADC:
 
 
 class DAC:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def write(self) -> Any:
         pass
 
@@ -41,7 +47,10 @@ EXT1_WAKE = 3
 HARD_RESET = 2
 
 class I2C:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def init(self) -> Any:
         pass
 
@@ -84,7 +93,10 @@ class I2C:
 PIN_WAKE = 2
 
 class PWM:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def deinit(self) -> Any:
         pass
 
@@ -100,7 +112,10 @@ class PWM:
 PWRON_RESET = 1
 
 class Pin:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     IN = 1
     IRQ_FALLING = 2
     IRQ_RISING = 1
@@ -128,7 +143,10 @@ class Pin:
 
 
 class RTC:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def datetime(self) -> Any:
         pass
 
@@ -140,7 +158,10 @@ class RTC:
 
 
 class SDCard:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def deinit(self) -> Any:
         pass
 
@@ -160,7 +181,10 @@ SLEEP = 2
 SOFT_RESET = 5
 
 class SPI:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     LSB = 1
     MSB = 0
     def deinit(self) -> Any:
@@ -183,7 +207,10 @@ class SPI:
 
 
 class Signal:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def off(self) -> Any:
         pass
 
@@ -195,7 +222,10 @@ class Signal:
 
 
 class SoftI2C:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def init(self) -> Any:
         pass
 
@@ -237,7 +267,10 @@ class SoftI2C:
 
 
 class SoftSPI:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     LSB = 1
     MSB = 0
     def deinit(self) -> Any:
@@ -262,7 +295,10 @@ TIMER_WAKE = 4
 TOUCHPAD_WAKE = 5
 
 class Timer:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     ONE_SHOT = 0
     PERIODIC = 1
     def deinit(self) -> Any:
@@ -276,7 +312,10 @@ class Timer:
 
 
 class TouchPad:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def config(self) -> Any:
         pass
 
@@ -285,7 +324,10 @@ class TouchPad:
 
 
 class UART:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     INV_CTS = 8
     INV_RTS = 64
     INV_RX = 4
@@ -317,7 +359,10 @@ class UART:
 ULP_WAKE = 6
 
 class WDT:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def feed(self) -> Any:
         pass
 

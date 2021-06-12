@@ -5,7 +5,10 @@ Module: 'flowlib.lib.easyIO' on M5 FlowUI v1.4.0-beta
 # Stubber: 1.3.1
 
 class ADC:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     ATTN_0DB = 0
     ATTN_11DB = 3
     ATTN_2_5DB = 1
@@ -50,7 +53,10 @@ class ADC:
 
 
 class PWM:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def deinit():
         pass
 
@@ -74,7 +80,10 @@ class PWM:
 
 
 class Pin:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     IN = 1
     INOUT = 3
     IRQ_FALLING = 2

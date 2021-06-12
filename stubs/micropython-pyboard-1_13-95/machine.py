@@ -5,7 +5,10 @@ Module: 'machine' on pyboard 1.13.0-95
 # Stubber: 1.3.4
 
 class ADC:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     CORE_TEMP = 16
     CORE_VBAT = 18
     CORE_VREF = 17
@@ -17,7 +20,10 @@ DEEPSLEEP_RESET = 4
 HARD_RESET = 2
 
 class I2C:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def init():
         pass
 
@@ -60,7 +66,10 @@ class I2C:
 PWRON_RESET = 1
 
 class Pin:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     AF1_TIM1 = 1
     AF1_TIM2 = 1
     AF2_TIM3 = 2
@@ -160,7 +169,10 @@ class Pin:
 
 
 class RTC:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def calibration():
         pass
 
@@ -179,7 +191,10 @@ class RTC:
 SOFT_RESET = 0
 
 class SPI:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     LSB = 128
     MSB = 0
     def deinit():
@@ -202,7 +217,10 @@ class SPI:
 
 
 class Signal:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def off():
         pass
 
@@ -214,7 +232,10 @@ class Signal:
 
 
 class SoftI2C:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def init():
         pass
 
@@ -256,7 +277,10 @@ class SoftI2C:
 
 
 class SoftSPI:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     LSB = 128
     MSB = 0
     def deinit():
@@ -279,7 +303,10 @@ class SoftSPI:
 
 
 class Timer:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     ONE_SHOT = 1
     PERIODIC = 2
     def deinit():
@@ -290,7 +317,10 @@ class Timer:
 
 
 class UART:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     CTS = 512
     IRQ_RXIDLE = 16
     RTS = 256
@@ -329,7 +359,10 @@ class UART:
 
 
 class WDT:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def feed():
         pass
 

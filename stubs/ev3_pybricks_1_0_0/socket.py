@@ -31,7 +31,10 @@ def create_connection():
 
 
 class error:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
 def getaddrinfo():
     pass
 
@@ -49,7 +52,10 @@ def sockaddr():
 
 
 class socket:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     accept = None
     bind = None
     def close():

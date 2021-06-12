@@ -5,7 +5,10 @@ Module: 'flowlib.units._ir' on M5 FlowUI v1.4.0-beta
 # Stubber: 1.3.1
 
 class Ir:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def _irq_cb():
         pass
 
@@ -27,7 +30,10 @@ class Ir:
 
 
 class PWM:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def deinit():
         pass
 
@@ -51,7 +57,10 @@ class PWM:
 
 
 class Pin:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     IN = 1
     INOUT = 3
     IRQ_FALLING = 2
@@ -85,7 +94,10 @@ class Pin:
 
 
 class Timer:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     ONE_SHOT = 0
     PERIODIC = 1
     def deinit():

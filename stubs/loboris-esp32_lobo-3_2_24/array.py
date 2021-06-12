@@ -5,7 +5,10 @@ Stubber: 1.0.0
 """
 
 class array:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def append():
         pass
 

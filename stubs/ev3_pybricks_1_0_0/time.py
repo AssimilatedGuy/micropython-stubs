@@ -8,7 +8,10 @@ def _c_tm_to_tuple():
 
 
 class _struct_time:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def count():
         pass
 

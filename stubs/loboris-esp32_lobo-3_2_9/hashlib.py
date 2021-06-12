@@ -5,7 +5,10 @@ Module: 'hashlib' on esp32_LoBo 3.2.9
 # Stubber: 1.1.2
 
 class sha1:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def digest():
         pass
 
@@ -14,7 +17,10 @@ class sha1:
 
 
 class sha256:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def digest():
         pass
 

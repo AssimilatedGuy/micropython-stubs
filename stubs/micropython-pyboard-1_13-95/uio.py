@@ -5,7 +5,10 @@ Module: 'uio' on pyboard 1.13.0-95
 # Stubber: 1.3.4
 
 class BytesIO:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def close():
         pass
 
@@ -35,7 +38,10 @@ class BytesIO:
 
 
 class FileIO:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def close():
         pass
 
@@ -65,4 +71,7 @@ class FileIO:
 
 
 class IOBase:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+

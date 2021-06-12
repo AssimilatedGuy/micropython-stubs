@@ -21,10 +21,16 @@ class EOFError:
 Ellipsis = None
 
 class Exception:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
 
 class GeneratorExit:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
 
 class ImportError:
     ''
@@ -39,7 +45,10 @@ class KeyError:
     ''
 
 class KeyboardInterrupt:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
 
 class LookupError:
     ''
@@ -64,16 +73,25 @@ class RuntimeError:
     ''
 
 class StopAsyncIteration:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
 
 class StopIteration:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
 
 class SyntaxError:
     ''
 
 class SystemExit:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
 
 class TypeError:
     ''
@@ -100,10 +118,16 @@ def bin():
 
 
 class bool:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
 
 class bytearray:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def append():
         pass
 
@@ -112,7 +136,10 @@ class bytearray:
 
 
 class bytes:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def center():
         pass
 
@@ -202,19 +229,28 @@ def chr():
 
 
 class classmethod:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
 def compile():
     pass
 
 
 class complex:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
 def delattr():
     pass
 
 
 class dict:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def clear():
         pass
 
@@ -256,7 +292,10 @@ def divmod():
 
 
 class enumerate:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
 def eval():
     pass
 
@@ -268,16 +307,25 @@ def execfile():
 
 
 class filter:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
 
 class float:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
 def float_precision():
     pass
 
 
 class frozenset:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def copy():
         pass
 
@@ -328,7 +376,10 @@ def input():
 
 
 class int:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def from_bytes():
         pass
 
@@ -349,7 +400,10 @@ def len():
 
 
 class list:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def append():
         pass
 
@@ -388,13 +442,19 @@ def locals():
 
 
 class map:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
 def max():
     pass
 
 
 class memoryview:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
 def min():
     pass
 
@@ -403,7 +463,10 @@ def next():
 
 
 class object:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
 def oct():
     pass
 
@@ -421,7 +484,10 @@ def print():
 
 
 class property:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def deleter():
         pass
 
@@ -433,19 +499,28 @@ class property:
 
 
 class range:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
 def repr():
     pass
 
 
 class reversed:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
 def round():
     pass
 
 
 class set:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def add():
         pass
 
@@ -502,16 +577,25 @@ def setattr():
 
 
 class slice:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
 def sorted():
     pass
 
 
 class staticmethod:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
 
 class str:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def center():
         pass
 
@@ -598,10 +682,16 @@ def sum():
 
 
 class super:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
 
 class tuple:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def count():
         pass
 
@@ -610,7 +700,13 @@ class tuple:
 
 
 class type:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
 
 class zip:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+

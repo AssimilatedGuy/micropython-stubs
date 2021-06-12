@@ -7,7 +7,10 @@ from typing import Any
 
 
 class Event:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def clear(self) -> Any:
         pass
 
@@ -20,7 +23,10 @@ class Event:
     wait = Any
 
 class ThreadSafeFlag:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def ioctl(self) -> Any:
         pass
 

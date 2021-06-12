@@ -5,7 +5,10 @@ Stubber: 1.0.0
 """
 
 class MicroWebSocket:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def Close():
         pass
 
@@ -58,7 +61,10 @@ def pack():
 
 
 class sha1:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def digest():
         pass
 

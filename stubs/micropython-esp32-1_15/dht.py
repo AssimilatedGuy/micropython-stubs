@@ -7,7 +7,10 @@ from typing import Any
 
 
 class DHT11:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def humidity(self) -> Any:
         pass
 
@@ -19,7 +22,10 @@ class DHT11:
 
 
 class DHT22:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def humidity(self) -> Any:
         pass
 
@@ -31,7 +37,10 @@ class DHT22:
 
 
 class DHTBase:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def measure(self) -> Any:
         pass
 

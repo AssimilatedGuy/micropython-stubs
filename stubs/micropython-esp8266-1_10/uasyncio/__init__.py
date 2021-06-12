@@ -9,7 +9,10 @@ class CancelledError:
 DEBUG = 0
 
 class EventLoop:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def call_at_():
         pass
 
@@ -45,28 +48,43 @@ class EventLoop:
 
 
 class IORead:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def handle():
         pass
 
 
 class IOReadDone:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def handle():
         pass
 
 
 class IOWrite:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def handle():
         pass
 
 
 class IOWriteDone:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def handle():
         pass
 
 
 class PollEventLoop:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+

@@ -5,7 +5,10 @@ Module: 'pybricks.robotics' on LEGO EV3 v1.0.0
 # Stubber: 1.3.2
 
 class DriveBase:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def drive():
         pass
 
@@ -17,7 +20,10 @@ class DriveBase:
 
 
 class Stop:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     BRAKE = 1
     COAST = 0
     HOLD = 2

@@ -7,7 +7,10 @@ CLOCK_MONOTONIC = 1
 CLOCK_REALTIME = 0
 
 class Pin:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     IN = 'in'
     OUT = 'out'
     def deinit():
@@ -18,7 +21,10 @@ class Pin:
 
 
 class PinBase:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
 SIGEV_SIGNAL = 0
 SIGINT = 2
 SIGPIPE = 13
@@ -28,7 +34,10 @@ SIG_DFL = 0
 SIG_IGN = 1
 
 class Signal:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def off():
         pass
 
@@ -40,7 +49,10 @@ class Signal:
 
 
 class Timer:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def callback():
         pass
 

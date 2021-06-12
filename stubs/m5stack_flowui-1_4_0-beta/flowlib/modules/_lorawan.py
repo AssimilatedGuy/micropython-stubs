@@ -5,7 +5,10 @@ Module: 'flowlib.modules._lorawan' on M5 FlowUI v1.4.0-beta
 # Stubber: 1.3.1
 
 class Lorawan:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def _monitor():
         pass
 

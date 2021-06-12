@@ -5,7 +5,10 @@ Module: 'pybricks.speaker' on LEGO EV3 v1.0.0
 # Stubber: 1.3.2
 
 class Ev3devSpeaker:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def _beep():
         pass
 
@@ -29,7 +32,10 @@ class Ev3devSpeaker:
 
 
 class SoundFile:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def _cancel_token():
         pass
 
@@ -39,7 +45,10 @@ class SoundFile:
 
 
 class Speaker:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     _valid_devices = None
     def beep():
         pass

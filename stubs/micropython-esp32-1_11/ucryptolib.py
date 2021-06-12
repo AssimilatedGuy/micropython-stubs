@@ -5,7 +5,10 @@ Module: 'ucryptolib' on esp32 1.11.0
 # Stubber: 1.3.2
 
 class aes:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def decrypt():
         pass
 

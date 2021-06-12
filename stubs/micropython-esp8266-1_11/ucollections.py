@@ -5,7 +5,10 @@ Module: 'ucollections' on esp8266 v1.11
 # Stubber: 1.1.0
 
 class OrderedDict:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def clear():
         pass
 
@@ -41,7 +44,10 @@ class OrderedDict:
 
 
 class deque:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def append():
         pass
 

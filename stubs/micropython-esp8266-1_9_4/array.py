@@ -5,7 +5,10 @@ Module: 'array' on esp8266 v1.9.4
 # Stubber: 1.1.2
 
 class array:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def append():
         pass
 

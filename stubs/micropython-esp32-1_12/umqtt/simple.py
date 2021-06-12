@@ -5,7 +5,10 @@ Module: 'umqtt.simple' on esp32 1.12.0
 # Stubber: 1.3.2
 
 class MQTTClient:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def _recv_len():
         pass
 

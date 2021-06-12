@@ -5,7 +5,10 @@ Module: 'hashlib' on pyboard 1.13.0-95
 # Stubber: 1.3.4
 
 class sha256:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def digest():
         pass
 

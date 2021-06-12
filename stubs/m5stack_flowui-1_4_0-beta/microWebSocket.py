@@ -5,7 +5,10 @@ Module: 'microWebSocket' on M5 FlowUI v1.4.0-beta
 # Stubber: 1.3.1
 
 class MicroWebSocket:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def Close():
         pass
 
@@ -58,7 +61,10 @@ def pack():
 
 
 class sha1:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def digest():
         pass
 

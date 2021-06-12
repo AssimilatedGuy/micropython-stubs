@@ -5,7 +5,10 @@ Module: 'ucryptolib' on esp8266 v1.10
 # Stubber: 1.1.0
 
 class aes:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def decrypt():
         pass
 

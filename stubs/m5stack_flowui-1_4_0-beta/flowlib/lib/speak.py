@@ -5,7 +5,10 @@ Module: 'flowlib.lib.speak' on M5 FlowUI v1.4.0-beta
 # Stubber: 1.3.1
 
 class Speaker:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def _timeout_cb():
         pass
 

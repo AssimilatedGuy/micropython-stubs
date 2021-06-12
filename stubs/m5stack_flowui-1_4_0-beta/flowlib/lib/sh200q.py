@@ -15,7 +15,10 @@ SF_M_S2 = 9.80665
 SF_RAD_S = 57.29578
 
 class Sh200q:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def _accel_fs():
         pass
 

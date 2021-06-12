@@ -5,7 +5,10 @@ Module: 'flowlib.lib.dht12' on M5 FlowUI v1.4.0-beta
 # Stubber: 1.3.1
 
 class DHT12:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def humidity():
         pass
 
@@ -17,7 +20,10 @@ class DHT12:
 
 
 class DHTBaseI2C:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def measure():
         pass
 

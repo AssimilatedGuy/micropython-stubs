@@ -8,7 +8,10 @@ from typing import Any
 DIRTYPE = 'dir'
 
 class FileSection:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def read(self) -> Any:
         pass
 
@@ -22,7 +25,10 @@ REGTYPE = 'file'
 TAR_HEADER = Any
 
 class TarFile:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def extractfile(self) -> Any:
         pass
 
@@ -31,7 +37,10 @@ class TarFile:
 
 
 class TarInfo:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
 def roundup() -> Any:
     pass
 

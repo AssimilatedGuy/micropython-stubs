@@ -5,7 +5,10 @@ Stubber: 1.0.0
 """
 
 class Response:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def close():
         pass
 

@@ -6,7 +6,10 @@ Module: 'example_sub_led' on esp8266 v1.11
 CLIENT_ID = None
 
 class MQTTClient:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def _recv_len():
         pass
 
@@ -42,7 +45,10 @@ class MQTTClient:
 
 
 class Pin:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     IN = 0
     IRQ_FALLING = 2
     IRQ_RISING = 1

@@ -6,7 +6,10 @@ Module: 'pybricks.uev3dev.sound' on LEGO EV3 v1.0.0
 INT32 = 671088640
 
 class Mixer:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     _attach = None
     _close = None
     _find_selem = None
@@ -29,7 +32,10 @@ class Mixer:
 
 
 class PCM:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     _ACCESS_RW_INTERLEAVED = 3
     _FORMAT_S16_LE = 2
     _STREAM_PLAYBACK = 0
@@ -55,13 +61,19 @@ class PCM:
 
 
 class PlayType:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     ONCE = 1
     REPEAT = 2
     WAIT = 0
 
 class Sound:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def _beep():
         pass
 
@@ -85,7 +97,10 @@ class Sound:
 
 
 class SoundFile:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def _cancel_token():
         pass
 
@@ -98,7 +113,10 @@ class SoundFileError:
     ''
 
 class Timeout:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     _ONE = None
     def _run():
         pass
@@ -121,7 +139,10 @@ UINT64 = 805306368
 _BEEP_DEV = '/dev/input/by-path/platform-sound-event'
 
 class _CancelToken:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def cancel():
         pass
 
@@ -165,7 +186,10 @@ def sleep_ms():
 
 
 class struct:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
 def unpack():
     pass
 

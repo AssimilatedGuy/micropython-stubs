@@ -5,7 +5,10 @@ Module: 'uio' on esp8266 v1.9.4
 # Stubber: 1.1.2
 
 class BytesIO:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def close():
         pass
 
@@ -32,4 +35,7 @@ class BytesIO:
 
 
 class FileIO:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+

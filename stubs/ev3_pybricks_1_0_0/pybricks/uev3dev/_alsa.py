@@ -9,7 +9,10 @@ class AlsaError:
 EPIPE = 32
 
 class Mixer:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     _attach = None
     _close = None
     _find_selem = None
@@ -32,7 +35,10 @@ class Mixer:
 
 
 class PCM:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     _ACCESS_RW_INTERLEAVED = 3
     _FORMAT_S16_LE = 2
     _STREAM_PLAYBACK = 0

@@ -22,4 +22,7 @@ SET_SEG_REMAP = 160
 SET_VCOM_DESEL = 219
 
 class SSD1306:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+

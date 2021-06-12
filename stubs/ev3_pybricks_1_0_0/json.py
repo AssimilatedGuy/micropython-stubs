@@ -5,7 +5,10 @@ Module: 'json' on LEGO EV3 v1.0.0
 # Stubber: 1.3.2
 
 class JSONDecoder:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def decode():
         pass
 
@@ -14,7 +17,10 @@ class JSONDecoder:
 
 
 class JSONEncoder:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def default():
         pass
 

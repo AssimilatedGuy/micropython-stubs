@@ -5,7 +5,10 @@ Module: 'onewire' on micropython-esp32-1.14
 # Stubber: 1.3.9
 
 class OneWire:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     MATCH_ROM = 85
     SEARCH_ROM = 240
     SKIP_ROM = 204

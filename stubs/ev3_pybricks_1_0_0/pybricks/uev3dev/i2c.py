@@ -5,7 +5,10 @@ Module: 'pybricks.uev3dev.i2c' on LEGO EV3 v1.0.0
 # Stubber: 1.3.2
 
 class SMBus:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def _access():
         pass
 

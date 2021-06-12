@@ -5,7 +5,10 @@ Module: 'uasyncio.lock' on micropython-esp32-1.14
 # Stubber: 1.3.9
 
 class Lock:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     acquire = None
     def locked():
         pass

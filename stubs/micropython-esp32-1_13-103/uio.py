@@ -5,7 +5,10 @@ Module: 'uio' on esp32 1.13.0-103
 # Stubber: 1.3.4
 
 class BufferedWriter:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def flush():
         pass
 
@@ -14,7 +17,10 @@ class BufferedWriter:
 
 
 class BytesIO:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def close():
         pass
 
@@ -44,7 +50,10 @@ class BytesIO:
 
 
 class FileIO:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def close():
         pass
 
@@ -74,10 +83,16 @@ class FileIO:
 
 
 class IOBase:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
 
 class StringIO:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def close():
         pass
 
@@ -107,7 +122,10 @@ class StringIO:
 
 
 class TextIOWrapper:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def close():
         pass
 

@@ -5,7 +5,10 @@ Module: 'ubluetooth' on micropython-esp32-1.14
 # Stubber: 1.3.9
 
 class BLE:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def active():
         pass
 
@@ -70,4 +73,7 @@ FLAG_WRITE = 8
 FLAG_WRITE_NO_RESPONSE = 4
 
 class UUID:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+

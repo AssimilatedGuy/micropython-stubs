@@ -7,7 +7,10 @@ from typing import Any
 
 
 class sha1:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def digest(self) -> Any:
         pass
 
@@ -16,7 +19,10 @@ class sha1:
 
 
 class sha256:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def digest(self) -> Any:
         pass
 

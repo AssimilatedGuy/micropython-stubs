@@ -5,7 +5,10 @@ Stubber: 1.0.0
 """
 
 class Editor:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     KEYMAP = None
     case = 'n'
     def clear_to_eol():

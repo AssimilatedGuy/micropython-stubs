@@ -5,7 +5,10 @@ Module: 'ucryptolib' on LEGO EV3 v1.0.0
 # Stubber: 1.3.2
 
 class aes:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def decrypt():
         pass
 

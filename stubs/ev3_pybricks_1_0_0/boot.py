@@ -5,7 +5,10 @@ Module: 'boot' on LEGO EV3 v1.0.0
 # Stubber: 1.3.2
 
 class Align:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     BOTTOM = 2
     BOTTOM_LEFT = 1
     BOTTOM_RIGHT = 3
@@ -17,7 +20,10 @@ class Align:
     TOP_RIGHT = 9
 
 class Button:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     BEACON = 256
     CENTER = 32
     DOWN = 4
@@ -30,7 +36,10 @@ class Button:
     UP = 256
 
 class Color:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     BLACK = 1
     BLUE = 2
     BROWN = 7
@@ -42,7 +51,10 @@ class Color:
     YELLOW = 4
 
 class ColorSensor:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def _close_files():
         pass
 
@@ -72,12 +84,18 @@ class ColorSensor:
 
 
 class Direction:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     CLOCKWISE = 0
     COUNTERCLOCKWISE = 1
 
 class DriveBase:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def drive():
         pass
 
@@ -89,7 +107,10 @@ class DriveBase:
 
 
 class GyroSensor:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def _calibrate():
         pass
 
@@ -125,7 +146,10 @@ class GyroSensor:
 
 
 class ImageFile:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     ACCEPT = '/usr/share/images/ev3dev/mono/information/accept.png'
     ANGRY = '/usr/share/images/ev3dev/mono/eyes/angry.png'
     AWAKE = '/usr/share/images/ev3dev/mono/eyes/awake.png'
@@ -167,7 +191,10 @@ class ImageFile:
     _BASE_PATH = '/usr/share/images/ev3dev/mono/'
 
 class InfraredSensor:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def _close_files():
         pass
 
@@ -195,7 +222,10 @@ class InfraredSensor:
 
 
 class Motor:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def angle():
         pass
 
@@ -243,7 +273,10 @@ class Motor:
 
 
 class Port:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     A = 65
     B = 66
     C = 67
@@ -254,7 +287,10 @@ class Port:
     S4 = 52
 
 class SoundFile:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     ACTIVATE = '/usr/share/sounds/ev3dev/information/activate.wav'
     AIRBRAKE = '/usr/share/sounds/ev3dev/mechanical/airbrake.wav'
     AIR_RELEASE = '/usr/share/sounds/ev3dev/mechanical/air_release.wav'
@@ -363,13 +399,19 @@ class SoundFile:
     _BASE_PATH = '/usr/share/sounds/ev3dev/'
 
 class Stop:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     BRAKE = 1
     COAST = 0
     HOLD = 2
 
 class StopWatch:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def pause():
         pass
 
@@ -384,7 +426,10 @@ class StopWatch:
 
 
 class TouchSensor:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def _close_files():
         pass
 
@@ -405,7 +450,10 @@ class TouchSensor:
 
 
 class UltrasonicSensor:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     PING_WAIT = 300
     def _close_files():
         pass

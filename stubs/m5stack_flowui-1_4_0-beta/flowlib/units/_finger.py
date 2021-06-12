@@ -12,7 +12,10 @@ ACK_USER_EXIST = 7
 ACK_USER_OCCUPIED = 6
 
 class Finger:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def _monitor():
         pass
 

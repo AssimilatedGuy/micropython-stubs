@@ -5,7 +5,10 @@ Module: 'uzlib' on esp8266 v1.9.4
 # Stubber: 1.1.2
 
 class DecompIO:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def read():
         pass
 

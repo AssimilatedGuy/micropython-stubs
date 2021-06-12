@@ -5,7 +5,10 @@ Module: 'tpcalib' on esp32_LoBo 3.2.9
 # Stubber: 1.1.2
 
 class Calibrate:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def calibError():
         pass
 

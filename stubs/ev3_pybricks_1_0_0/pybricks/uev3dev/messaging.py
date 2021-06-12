@@ -16,7 +16,10 @@ def sizeof():
 
 
 class socket:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def accept():
         pass
 
@@ -70,5 +73,8 @@ class socket:
 
 
 class struct:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
 time = None

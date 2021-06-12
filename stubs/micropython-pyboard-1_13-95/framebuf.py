@@ -5,7 +5,10 @@ Module: 'framebuf' on pyboard 1.13.0-95
 # Stubber: 1.3.4
 
 class FrameBuffer:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def blit():
         pass
 

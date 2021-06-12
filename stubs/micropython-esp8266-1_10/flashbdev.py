@@ -5,7 +5,10 @@ Module: 'flashbdev' on esp8266 v1.10
 # Stubber: 1.1.0
 
 class FlashBdev:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     NUM_BLK = 106
     RESERVED_SECS = 1
     SEC_SIZE = 4096

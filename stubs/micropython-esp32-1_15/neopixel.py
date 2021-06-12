@@ -7,7 +7,10 @@ from typing import Any
 
 
 class NeoPixel:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     ORDER = Any
     def fill(self) -> Any:
         pass

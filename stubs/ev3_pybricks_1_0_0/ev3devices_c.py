@@ -5,7 +5,10 @@ Module: 'ev3devices_c' on LEGO EV3 v1.0.0
 # Stubber: 1.3.2
 
 class Motor:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def angle():
         pass
 

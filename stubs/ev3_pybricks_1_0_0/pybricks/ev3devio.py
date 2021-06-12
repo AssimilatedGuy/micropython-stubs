@@ -5,7 +5,10 @@ Module: 'pybricks.ev3devio' on LEGO EV3 v1.0.0
 # Stubber: 1.3.2
 
 class Ev3devSensor:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def _close_files():
         pass
 
@@ -23,7 +26,10 @@ class Ev3devSensor:
 
 
 class Ev3devUartSensor:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def _close_files():
         pass
 
@@ -47,7 +53,10 @@ class Ev3devUartSensor:
 
 
 class StopWatch:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def pause():
         pass
 

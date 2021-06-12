@@ -5,7 +5,10 @@ Module: 'uhashlib' on micropython-esp32-1.14
 # Stubber: 1.3.9
 
 class sha1:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def digest():
         pass
 
@@ -14,7 +17,10 @@ class sha1:
 
 
 class sha256:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def digest():
         pass
 

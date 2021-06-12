@@ -5,7 +5,10 @@ Module: 'uos' on esp8266 v1.11
 # Stubber: 1.1.0
 
 class VfsFat:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def chdir():
         pass
 

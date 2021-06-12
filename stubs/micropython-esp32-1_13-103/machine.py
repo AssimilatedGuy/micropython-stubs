@@ -5,7 +5,10 @@ Module: 'machine' on esp32 1.13.0-103
 # Stubber: 1.3.4
 
 class ADC:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     ATTN_0DB = 0
     ATTN_11DB = 3
     ATTN_2_5DB = 1
@@ -28,7 +31,10 @@ class ADC:
 
 
 class DAC:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def write():
         pass
 
@@ -39,7 +45,10 @@ EXT1_WAKE = 3
 HARD_RESET = 2
 
 class I2C:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def init():
         pass
 
@@ -82,7 +91,10 @@ class I2C:
 PIN_WAKE = 2
 
 class PWM:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def deinit():
         pass
 
@@ -98,7 +110,10 @@ class PWM:
 PWRON_RESET = 1
 
 class Pin:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     IN = 1
     IRQ_FALLING = 2
     IRQ_RISING = 1
@@ -126,7 +141,10 @@ class Pin:
 
 
 class RTC:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def datetime():
         pass
 
@@ -138,7 +156,10 @@ class RTC:
 
 
 class SDCard:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def deinit():
         pass
 
@@ -158,7 +179,10 @@ SLEEP = 2
 SOFT_RESET = 5
 
 class SPI:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     LSB = 1
     MSB = 0
     def deinit():
@@ -181,7 +205,10 @@ class SPI:
 
 
 class Signal:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def off():
         pass
 
@@ -193,7 +220,10 @@ class Signal:
 
 
 class SoftI2C:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def init():
         pass
 
@@ -235,7 +265,10 @@ class SoftI2C:
 
 
 class SoftSPI:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     LSB = 1
     MSB = 0
     def deinit():
@@ -260,7 +293,10 @@ TIMER_WAKE = 4
 TOUCHPAD_WAKE = 5
 
 class Timer:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     ONE_SHOT = 0
     PERIODIC = 1
     def deinit():
@@ -274,7 +310,10 @@ class Timer:
 
 
 class TouchPad:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def config():
         pass
 
@@ -283,7 +322,10 @@ class TouchPad:
 
 
 class UART:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     INV_CTS = 1048576
     INV_RTS = 8388608
     INV_RX = 524288
@@ -315,7 +357,10 @@ class UART:
 ULP_WAKE = 6
 
 class WDT:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def feed():
         pass
 

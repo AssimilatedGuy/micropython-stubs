@@ -6,7 +6,10 @@ Module: 'pybricks.uev3dev.display' on LEGO EV3 v1.0.0
 ARRAY = -1073741824
 
 class CompositeOp:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     ALPHA = 1
     ATOP = 2
     BLEND = 3
@@ -80,7 +83,10 @@ class CompositeOp:
     XOR = 70
 
 class Display:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def image():
         pass
 
@@ -98,7 +104,10 @@ class Display:
 
 
 class FrameBuffer:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def blit():
         pass
 
@@ -131,11 +140,17 @@ class FrameBuffer:
 
 
 class ImageFile:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
 MONO_HLSB = 3
 
 class MagickWand:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def _raise_error():
         pass
 
@@ -171,7 +186,10 @@ class MagickWand:
 
 
 class PixelWand:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def _raise_error():
         pass
 
@@ -194,7 +212,10 @@ _FB_VISUAL_MONO10 = 1
 _FB_VISUAL_TRUECOLOR = 2
 
 class _Screen:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     BLACK = 0
     WHITE = -1
     bpp = None
@@ -217,7 +238,10 @@ def ioctl():
 
 
 class mmap:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def close():
         pass
 
@@ -235,4 +259,7 @@ def sizeof():
 
 
 class struct:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+

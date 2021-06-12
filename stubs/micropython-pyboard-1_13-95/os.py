@@ -5,7 +5,10 @@ Module: 'os' on pyboard 1.13.0-95
 # Stubber: 1.3.4
 
 class VfsFat:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def chdir():
         pass
 
@@ -47,7 +50,10 @@ class VfsFat:
 
 
 class VfsLfs2:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def chdir():
         pass
 

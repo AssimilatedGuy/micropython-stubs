@@ -5,7 +5,10 @@ Module: 'urequests' on esp32 1.12.0
 # Stubber: 1.3.2
 
 class Response:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def close():
         pass
 

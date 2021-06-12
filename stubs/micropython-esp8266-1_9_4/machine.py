@@ -5,7 +5,10 @@ Module: 'machine' on esp8266 v1.9.4
 # Stubber: 1.1.2
 
 class ADC:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def read():
         pass
 
@@ -14,4 +17,7 @@ DEEPSLEEP_RESET = 5
 HARD_RESET = 6
 
 class I2C:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+

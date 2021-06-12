@@ -5,7 +5,10 @@ Module: 'flowlib.lib.wavplayer' on M5 FlowUI v1.4.0-beta
 # Stubber: 1.3.1
 
 class Btn:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def attach():
         pass
 
@@ -26,7 +29,10 @@ class Btn:
 
 
 class BtnChild:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def deinit():
         pass
 
@@ -56,7 +62,10 @@ class BtnChild:
 
 
 class I2S:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     CHANNEL_ALL_LEFT = 2
     CHANNEL_ALL_RIGHT = 1
     CHANNEL_ONLY_LEFT = 4
@@ -125,7 +134,10 @@ class I2S:
 
 
 class IP5306:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def getBatteryLevel():
         pass
 
@@ -149,7 +161,10 @@ class IP5306:
 
 
 class Rgb_multi:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def deinit():
         pass
 
@@ -173,7 +188,10 @@ class Rgb_multi:
 
 
 class Speaker:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def _timeout_cb():
         pass
 

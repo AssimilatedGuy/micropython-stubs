@@ -5,7 +5,10 @@ Module: 'esp32' on M5 FlowUI v1.4.0-beta
 # Stubber: 1.3.1
 
 class ULP:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     RESERVE_MEM = 0
     def load_binary():
         pass

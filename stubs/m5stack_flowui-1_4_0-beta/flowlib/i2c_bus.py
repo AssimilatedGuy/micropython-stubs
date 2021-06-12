@@ -5,7 +5,10 @@ Module: 'flowlib.i2c_bus' on M5 FlowUI v1.4.0-beta
 # Stubber: 1.3.1
 
 class I2C:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     CBTYPE_ADDR = 1
     CBTYPE_NONE = 0
     CBTYPE_RXDATA = 2
@@ -109,7 +112,10 @@ PORTA = None
 PORTC = None
 
 class Pahub_I2C:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def deinit():
         pass
 
@@ -142,7 +148,10 @@ bus_1 = None
 bus_other = None
 
 class easyI2C:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def available():
         pass
 

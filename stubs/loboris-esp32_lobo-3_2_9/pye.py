@@ -5,7 +5,10 @@ Module: 'pye' on esp32_LoBo 3.2.9
 # Stubber: 1.1.2
 
 class Editor:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     KEYMAP = None
     case = 'n'
     def clear_to_eol():

@@ -5,7 +5,10 @@ Module: 'flowlib.units._color' on M5 FlowUI v1.4.0-beta
 # Stubber: 1.3.1
 
 class Color:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def _available():
         pass
 

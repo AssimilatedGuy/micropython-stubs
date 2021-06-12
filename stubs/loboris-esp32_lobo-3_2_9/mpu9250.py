@@ -5,7 +5,10 @@ Module: 'mpu9250' on esp32_LoBo 3.2.9
 # Stubber: 1.1.2
 
 class AK8963:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def _register_char():
         pass
 
@@ -20,7 +23,10 @@ class AK8963:
     whoami = None
 
 class MPU6500:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def _accel_fs():
         pass
 
@@ -41,7 +47,10 @@ class MPU6500:
     whoami = None
 
 class MPU9250:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     acceleration = None
     gyro = None
     magnetic = None

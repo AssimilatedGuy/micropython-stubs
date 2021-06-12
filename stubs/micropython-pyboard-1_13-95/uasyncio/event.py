@@ -5,7 +5,10 @@ Module: 'uasyncio.event' on pyboard 1.13.0-95
 # Stubber: 1.3.4
 
 class Event:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def clear():
         pass
 

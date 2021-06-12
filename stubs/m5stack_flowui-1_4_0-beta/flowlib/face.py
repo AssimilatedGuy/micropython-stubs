@@ -8,7 +8,10 @@ ENCODE = 'encode'
 FINGER = 'finger'
 
 class Face:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
 GAMEBOY = 'gameboy'
 JOYSTICK = 'joystick'
 KEYBOARD = 'keyboard'

@@ -5,7 +5,10 @@ Module: 'collections' on pyboard 1.13.0-95
 # Stubber: 1.3.4
 
 class OrderedDict:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def clear():
         pass
 
@@ -41,7 +44,10 @@ class OrderedDict:
 
 
 class deque:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def append():
         pass
 

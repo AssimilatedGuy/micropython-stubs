@@ -11,7 +11,10 @@ ERROR = 40
 INFO = 20
 
 class Logger:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def _level_str(self) -> Any:
         pass
 

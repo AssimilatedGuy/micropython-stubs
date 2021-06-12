@@ -5,7 +5,10 @@ Stubber: 1.0.0
 """
 
 class Calibrate:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def calibError():
         pass
 

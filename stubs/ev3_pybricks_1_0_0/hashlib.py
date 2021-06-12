@@ -15,7 +15,10 @@ def new():
 
 
 class sha1:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def digest():
         pass
 
@@ -24,7 +27,10 @@ class sha1:
 
 
 class sha224:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     block_size = 64
     def copy():
         pass
@@ -42,7 +48,10 @@ class sha224:
 
 
 class sha256:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def digest():
         pass
 
@@ -51,7 +60,10 @@ class sha256:
 
 
 class sha384:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     block_size = 128
     def copy():
         pass
@@ -69,7 +81,10 @@ class sha384:
 
 
 class sha512:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     block_size = 128
     def copy():
         pass

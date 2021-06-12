@@ -7,7 +7,10 @@ from typing import Any
 
 
 class VfsFat:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def chdir(self) -> Any:
         pass
 
@@ -49,7 +52,10 @@ class VfsFat:
 
 
 class VfsLfs2:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def chdir(self) -> Any:
         pass
 

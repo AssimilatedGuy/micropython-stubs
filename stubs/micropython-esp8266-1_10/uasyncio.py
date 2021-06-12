@@ -9,4 +9,7 @@ class CancelledError:
 DEBUG = 0
 
 class EventLoop:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+

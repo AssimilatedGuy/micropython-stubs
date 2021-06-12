@@ -47,7 +47,10 @@ TOF = None
 TRACKER = None
 
 class Unit:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
 WEIGHT = None
 def const():
     pass

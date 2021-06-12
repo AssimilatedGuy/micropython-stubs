@@ -5,7 +5,10 @@ Module: 'hashlib' on esp8266 v1.11
 # Stubber: 1.1.0
 
 class sha1:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def digest():
         pass
 
@@ -14,7 +17,10 @@ class sha1:
 
 
 class sha256:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def digest():
         pass
 

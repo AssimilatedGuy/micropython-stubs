@@ -7,7 +7,10 @@ EINTR = 4
 POLLIN = 1
 
 class Timeout:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     _ONE = None
     def _run():
         pass
@@ -26,7 +29,10 @@ class Timeout:
 
 
 class Timer:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def elapsed_time():
         pass
 
@@ -66,7 +72,10 @@ def sizeof():
 
 
 class struct:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
 sys = None
 time = None
 def write_at_index():

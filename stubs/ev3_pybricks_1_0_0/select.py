@@ -16,7 +16,10 @@ EPOLL_CTL_DEL = 2
 EPOLL_CTL_MOD = 3
 
 class Epoll:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def close():
         pass
 

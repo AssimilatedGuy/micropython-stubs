@@ -5,7 +5,10 @@ Module: 'machine' on M5 FlowUI v1.4.0-beta
 # Stubber: 1.3.1
 
 class ADC:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     ATTN_0DB = 0
     ATTN_11DB = 3
     ATTN_2_5DB = 1
@@ -50,7 +53,10 @@ class ADC:
 
 
 class DAC:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     CIRCULAR = 1
     NOISE = 4
     NORMAL = 1
@@ -92,7 +98,10 @@ EXT1_WAKE = 3
 HARD_RESET = 2
 
 class I2C:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     CBTYPE_ADDR = 1
     CBTYPE_NONE = 0
     CBTYPE_RXDATA = 2
@@ -187,7 +196,10 @@ class I2C:
 
 
 class I2S:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     CHANNEL_ALL_LEFT = 2
     CHANNEL_ALL_RIGHT = 1
     CHANNEL_ONLY_LEFT = 4
@@ -256,7 +268,10 @@ class I2S:
 
 
 class Neopixel:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     BLACK = 0
     BLUE = 255
     CYAN = 65535
@@ -326,7 +341,10 @@ class Neopixel:
 PIN_WAKE = 2
 
 class PWM:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def deinit():
         pass
 
@@ -351,7 +369,10 @@ class PWM:
 PWRON_RESET = 1
 
 class Pin:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     IN = 1
     INOUT = 3
     IRQ_FALLING = 2
@@ -385,7 +406,10 @@ class Pin:
 
 
 class RTC:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def datetime():
         pass
 
@@ -399,7 +423,10 @@ SLEEP = 2
 SOFT_RESET = 5
 
 class Signal:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def off():
         pass
 
@@ -413,7 +440,10 @@ TIMER_WAKE = 4
 TOUCHPAD_WAKE = 5
 
 class Timer:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     ONE_SHOT = 0
     PERIODIC = 1
     def deinit():
@@ -427,7 +457,10 @@ class Timer:
 
 
 class TouchPad:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def config():
         pass
 
@@ -436,7 +469,10 @@ class TouchPad:
 
 
 class UART:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def any():
         pass
 
@@ -464,7 +500,10 @@ class UART:
 ULP_WAKE = 6
 
 class WDT:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def feed():
         pass
 

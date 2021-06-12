@@ -5,7 +5,10 @@ Module: 'flowlib.m5cloud' on M5 FlowUI v1.4.0-beta
 # Stubber: 1.3.1
 
 class Btn:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def attach():
         pass
 
@@ -26,7 +29,10 @@ class Btn:
 
 
 class BtnChild:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def deinit():
         pass
 
@@ -56,7 +62,10 @@ class BtnChild:
 
 
 class IP5306:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def getBatteryLevel():
         pass
 
@@ -80,7 +89,10 @@ class IP5306:
 
 
 class M5Cloud:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def _backend():
         pass
 
@@ -110,7 +122,10 @@ class M5Cloud:
 
 
 class MQTTClient:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def _clean_sock_buffer():
         pass
 
@@ -167,7 +182,10 @@ class MQTTClient:
 
 
 class Rgb_multi:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def deinit():
         pass
 
@@ -195,7 +213,10 @@ STA_IDLE = 0
 STA_UPLOAD = 2
 
 class Speaker:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def _timeout_cb():
         pass
 
@@ -243,7 +264,10 @@ def flowDeinit():
 
 
 class flowExit:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
 gc = None
 def getP2PData():
     pass

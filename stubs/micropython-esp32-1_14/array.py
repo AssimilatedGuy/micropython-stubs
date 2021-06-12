@@ -5,7 +5,10 @@ Module: 'array' on micropython-esp32-1.14
 # Stubber: 1.3.9
 
 class array:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def append():
         pass
 

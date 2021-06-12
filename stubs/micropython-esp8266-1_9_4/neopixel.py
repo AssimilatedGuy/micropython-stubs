@@ -5,7 +5,10 @@ Module: 'neopixel' on esp8266 v1.9.4
 # Stubber: 1.1.2
 
 class NeoPixel:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     ORDER = None
     def fill():
         pass

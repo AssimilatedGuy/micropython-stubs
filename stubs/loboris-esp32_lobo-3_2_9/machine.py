@@ -5,7 +5,10 @@ Module: 'machine' on esp32_LoBo 3.2.9
 # Stubber: 1.1.2
 
 class ADC:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     ATTN_0DB = 0
     ATTN_11DB = 3
     ATTN_2_5DB = 1
@@ -32,13 +35,19 @@ class ADC:
 
 
 class DAC:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def write():
         pass
 
 
 class DHT:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     DHT11 = 0
     DHT2X = 1
     def read():
@@ -52,7 +61,10 @@ EXT1_ANYHIGH = 1
 EXT1_ANYLOW = 2
 
 class I2C:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     CB_DATA = 3
     CB_READ = 1
     CB_WRITE = 2
@@ -134,7 +146,10 @@ LOG_VERBOSE = 5
 LOG_WARN = 2
 
 class Neopixel:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     BLACK = 0
     BLUE = 255
     CYAN = 65535
@@ -203,7 +218,10 @@ class Neopixel:
 
 
 class Onewire:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def crc8():
         pass
 
@@ -237,7 +255,10 @@ class Onewire:
 
 
 class PWM:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def deinit():
         pass
 
@@ -261,7 +282,10 @@ class PWM:
 
 
 class Pin:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     IN = 1
     INOUT = 3
     INOUT_OD = 7
@@ -287,7 +311,10 @@ class Pin:
 
 
 class RTC:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     EXT1_ALLHIGH = 2
     EXT1_ALLLOW = 0
     EXT1_ANYHIGH = 1
@@ -329,7 +356,10 @@ class RTC:
 
 
 class SPI:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     HSPI = 1
     LSB = 1
     MSB = 0
@@ -363,7 +393,10 @@ class SPI:
 
 
 class Signal:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def off():
         pass
 
@@ -375,7 +408,10 @@ class Signal:
 
 
 class Timer:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     CHRONO = 2
     EXTBASE = 3
     EXTENDED = 3
@@ -422,7 +458,10 @@ class Timer:
 
 
 class TouchPad:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def config():
         pass
 
@@ -431,7 +470,10 @@ class TouchPad:
 
 
 class UART:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     CBTYPE_DATA = 1
     CBTYPE_ERROR = 3
     CBTYPE_PATTERN = 2

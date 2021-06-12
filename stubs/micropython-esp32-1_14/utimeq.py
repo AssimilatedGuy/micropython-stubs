@@ -5,7 +5,10 @@ Module: 'utimeq' on micropython-esp32-1.14
 # Stubber: 1.3.9
 
 class utimeq:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def peektime():
         pass
 

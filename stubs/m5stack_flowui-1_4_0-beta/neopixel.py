@@ -5,7 +5,10 @@ Module: 'neopixel' on M5 FlowUI v1.4.0-beta
 # Stubber: 1.3.1
 
 class NeoPixel:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     ORDER = None
     def fill():
         pass

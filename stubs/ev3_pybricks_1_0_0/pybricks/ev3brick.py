@@ -5,7 +5,10 @@ Module: 'pybricks.ev3brick' on LEGO EV3 v1.0.0
 # Stubber: 1.3.2
 
 class Display:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     _font_height = 8
     def _next_line():
         pass
@@ -25,7 +28,10 @@ class Display:
 
 
 class Speaker:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     _valid_devices = None
     def beep():
         pass

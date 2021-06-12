@@ -6,7 +6,10 @@ Module: 'upip_utarfile' on M5 FlowUI v1.4.0-beta
 DIRTYPE = 'dir'
 
 class FileSection:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def read():
         pass
 
@@ -20,7 +23,10 @@ REGTYPE = 'file'
 TAR_HEADER = None
 
 class TarFile:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def extractfile():
         pass
 
@@ -29,7 +35,10 @@ class TarFile:
 
 
 class TarInfo:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
 def roundup():
     pass
 

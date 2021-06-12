@@ -5,7 +5,10 @@ Module: 'uhashlib' on M5 FlowUI v1.4.0-beta
 # Stubber: 1.3.1
 
 class sha1:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def digest():
         pass
 
@@ -14,7 +17,10 @@ class sha1:
 
 
 class sha256:
-    ''
+    def __init__(self, *args):
+        ''
+        pass
+
     def digest():
         pass
 
