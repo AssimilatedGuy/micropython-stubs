@@ -7,7 +7,8 @@ LEGO: str
 LIDARBOT: str
 LORAWAN: str
 
-class Module: ...
+class Module:
+    def __init__(self, *args: Any) -> None: ...
 
 PM25: str
 PORT_I2C: Any

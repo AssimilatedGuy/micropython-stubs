@@ -43,7 +43,8 @@ SERVO: Any
 TOF: Any
 TRACKER: Any
 
-class Unit: ...
+class Unit:
+    def __init__(self, *args: Any) -> None: ...
 
 WEIGHT: Any
 
